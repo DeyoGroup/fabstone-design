@@ -1,0 +1,44 @@
+/* ──────────────────────────────────────────────────────────────
+   FABSTONE — Color tokens
+   Source: fabstone-child theme (style.css :root), values traced
+   to Figma "Fab Stone Landing Page".
+   ────────────────────────────────────────────────────────────── */
+:root {
+	/* Brand reds — primary CTA / accent */
+	--fs-red:        #991B27;
+	--fs-red-dark:   #80161F;   /* hover */
+	--fs-red-soft:   #AC1F2B;
+
+	/* Surfaces */
+	--fs-dark:       #121212;   /* dark sections */
+	--fs-dark-2:     #1A1A1A;
+	--fs-dark-3:     #0C111F;   /* deepest, used for some panels */
+	--fs-light:      #F5F6F7;
+	--fs-light-2:    #EEEEEE;
+	--fs-white:      #FFFFFF;
+	--fs-copper:     #C7844F;   /* warm accent — eyebrows on dark, stone tags */
+	--fs-brown:      #2B1E16;   /* warm dark — header nav text */
+
+	/* Text */
+	--fs-text:       #121212;
+	--fs-text-soft:  #535367;   /* slate body text */
+	--fs-muted:      #7E7E7E;
+	--fs-muted-2:    #9A9A9A;
+	--fs-on-dark:    #F2F2F2;
+
+	/* Borders / dividers */
+	--fs-border:     #D2D2D2;
+	--fs-border-dark:#3A3A3A;
+
+	/* Semantic aliases */
+	--fs-accent-color:      var(--fs-red);
+	--fs-surface-page:      var(--fs-white);
+	--fs-surface-section:   var(--fs-light);
+	--fs-surface-dark:      var(--fs-dark);
+	--fs-surface-card:      var(--fs-white);
+	--fs-text-body:         var(--fs-text);
+	--fs-text-secondary:    var(--fs-text-soft);
+	--fs-text-on-dark:      var(--fs-on-dark);
+	--fs-eyebrow-on-dark:   var(--fs-copper);
+	--fs-link:              var(--fs-red);
+}

@@ -1,0 +1,37 @@
+/* ──────────────────────────────────────────────────────────────
+   FABSTONE — Spacing, radii, shadows, layout, motion tokens
+   Source: fabstone-child theme :root.
+   ────────────────────────────────────────────────────────────── */
+:root {
+	/* Radii — sourced from Figma */
+	--fs-radius-sm:  10px;     /* buttons, inputs */
+	--fs-radius:     24px;     /* cards */
+	--fs-radius-lg:  40px;     /* CTA banner, filter pills */
+	--fs-radius-xl:  54px;
+	--fs-radius-pill:9999px;
+
+	/* Shadows */
+	--fs-shadow-sm:  0 2px 4px rgba(0,0,0,.04);
+	--fs-shadow:     0 8px 24px rgba(0,0,0,.08);
+	--fs-shadow-lg:  0 20px 60px rgba(0,0,0,.18);
+
+	/* Spacing scale */
+	--fs-s-1: 4px;
+	--fs-s-2: 8px;
+	--fs-s-3: 12px;
+	--fs-s-4: 16px;
+	--fs-s-5: 24px;
+	--fs-s-6: 32px;
+	--fs-s-7: 48px;
+	--fs-s-8: 64px;
+	--fs-s-9: 96px;
+	--fs-s-10: 128px;
+
+	/* Containers — inner content max-width; section backgrounds full-bleed */
+	--fs-container:  1200px;
+	--fs-container-narrow: 960px;
+
+	/* Motion */
+	--fs-ease:       cubic-bezier(.2,.7,.2,1); /* @kind other */
+	--fs-dur:        .25s; /* @kind other */
+}

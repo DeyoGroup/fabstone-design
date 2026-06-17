@@ -1,0 +1,26 @@
+<!-- @template name="Website Home Page" description="Full Fabstone marketing home page — header, hero, inventory, gallery, CTA, footer" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fabstone — Premium Natural Stone &amp; Surfaces</title>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="./ds-base.js"></script>
+<style>body { margin: 0; }</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// The design system lives two levels up (see ds-base.js); its assets too.
+window.addEventListener('load', function () {
+  var ns = window.FabstoneDesignSystem_e3db74;
+  if (!ns || !ns.HomePage) { console.error('Fabstone bundle not loaded'); return; }
+  var assetBase = '../../assets';
+  ReactDOM.createRoot(document.getElementById('root'))
+    .render(React.createElement(ns.HomePage, { assetBase: assetBase }));
+});
+</script>
+</body>
+</html>

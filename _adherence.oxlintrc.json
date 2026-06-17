@@ -1,0 +1,271 @@
+{
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+    "react/forbid-elements": [
+      "warn",
+      {
+        "forbid": []
+      }
+    ],
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": [
+          {
+            "group": [
+              "components/cards/**",
+              "components/chrome/**",
+              "components/core/**",
+              "site_src/js/**",
+              "ui_kits/website/**"
+            ],
+            "message": "Import design-system components from 'index.js', not component internals."
+          }
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "warn",
+      {
+        "selector": "Literal[value=/#[0-9a-fA-F]{3,8}\\b/]",
+        "message": "Raw hex color — use a design-system color token via var()."
+      },
+      {
+        "selector": "Literal[value=/\\b\\d+px\\b/]",
+        "message": "Raw px value — use a design-system spacing token via var()."
+      },
+      {
+        "selector": "Literal[value=/font-family\\s*:\\s*(?!['\\\"]?(?:Urbanist))/i]",
+        "message": "Font not provided by the design system. Available: Urbanist."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ArrowButton'] > JSXAttribute > JSXIdentifier[name!=/^(?:direction|primary|disabled|onClick|className|key|ref|className|style|children)$/]",
+        "message": "<ArrowButton> doesn't accept that prop. Declared props: direction, primary, disabled, onClick, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ArrowButton'] > JSXAttribute[name.name='direction'] > Literal[value!=/^(?:prev|next)$/]",
+        "message": "<ArrowButton> direction must be one of 'prev' | 'next'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute > JSXIdentifier[name!=/^(?:variant|pill|href|onClick|children|className|style|key|ref|className|style|children)$/]",
+        "message": "<Button> doesn't accept that prop. Declared props: variant, pill, href, onClick, children, className, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:primary|ghost|dark|white|outline-dark)$/]",
+        "message": "<Button> variant must be one of 'primary' | 'ghost' | 'dark' | 'white' | 'outline-dark'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='CtaBanner'] > JSXAttribute > JSXIdentifier[name!=/^(?:eyebrow|title|lede|primaryLabel|secondaryLabel|onPrimary|onSecondary|key|ref|className|style|children)$/]",
+        "message": "<CtaBanner> doesn't accept that prop. Declared props: eyebrow, title, lede, primaryLabel, secondaryLabel, onPrimary, onSecondary."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ExclusiveCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:image|tag|title|description|hero|href|onClick|key|ref|className|style|children)$/]",
+        "message": "<ExclusiveCard> doesn't accept that prop. Declared props: image, tag, title, description, hero, href, onClick."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Pill'] > JSXAttribute > JSXIdentifier[name!=/^(?:active|onClick|children|className|key|ref|className|style|children)$/]",
+        "message": "<Pill> doesn't accept that prop. Declared props: active, onClick, children, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SearchInput'] > JSXAttribute > JSXIdentifier[name!=/^(?:placeholder|value|onChange|className|key|ref|className|style|children)$/]",
+        "message": "<SearchInput> doesn't accept that prop. Declared props: placeholder, value, onChange, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SectionHead'] > JSXAttribute > JSXIdentifier[name!=/^(?:eyebrow|accent|title|lede|onDark|align|className|style|key|ref|className|style|children)$/]",
+        "message": "<SectionHead> doesn't accept that prop. Declared props: eyebrow, accent, title, lede, onDark, align, className, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SectionHead'] > JSXAttribute[name.name='align'] > Literal[value!=/^(?:center|left)$/]",
+        "message": "<SectionHead> align must be one of 'center' | 'left'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SiteFooter'] > JSXAttribute > JSXIdentifier[name!=/^(?:logo|blurb|columns|legal|copyright|key|ref|className|style|children)$/]",
+        "message": "<SiteFooter> doesn't accept that prop. Declared props: logo, blurb, columns, legal, copyright."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SiteHeader'] > JSXAttribute > JSXIdentifier[name!=/^(?:logo|homeHref|email|phone|nav|activeItem|ctaLabel|onCta|onNavClick|key|ref|className|style|children)$/]",
+        "message": "<SiteHeader> doesn't accept that prop. Declared props: logo, homeHref, email, phone, nav, activeItem, ctaLabel, onCta, onNavClick."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='StoneCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:image|title|description|href|onClick|key|ref|className|style|children)$/]",
+        "message": "<StoneCard> doesn't accept that prop. Declared props: image, title, description, href, onClick."
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/index.js"
+      ],
+      "rules": {
+        "no-restricted-imports": "off"
+      }
+    }
+  ],
+  "x-omelette": {
+    "components": {
+      "ArrowButton": {
+        "replaces": []
+      },
+      "Button": {
+        "replaces": []
+      },
+      "CtaBanner": {
+        "replaces": []
+      },
+      "ExclusiveCard": {
+        "replaces": []
+      },
+      "Pill": {
+        "replaces": []
+      },
+      "SearchInput": {
+        "replaces": []
+      },
+      "SectionHead": {
+        "replaces": []
+      },
+      "SiteFooter": {
+        "replaces": []
+      },
+      "SiteHeader": {
+        "replaces": []
+      },
+      "StoneCard": {
+        "replaces": []
+      }
+    },
+    "tokens": [
+      "--fs-accent-color",
+      "--fs-border",
+      "--fs-border-dark",
+      "--fs-brown",
+      "--fs-container",
+      "--fs-container-narrow",
+      "--fs-copper",
+      "--fs-dark",
+      "--fs-dark-2",
+      "--fs-dark-3",
+      "--fs-dur",
+      "--fs-ease",
+      "--fs-eyebrow-on-dark",
+      "--fs-font-body",
+      "--fs-font-display",
+      "--fs-fs-body",
+      "--fs-fs-display",
+      "--fs-fs-h1",
+      "--fs-fs-h2",
+      "--fs-fs-h3",
+      "--fs-fs-h4",
+      "--fs-fs-micro",
+      "--fs-fs-small",
+      "--fs-light",
+      "--fs-light-2",
+      "--fs-link",
+      "--fs-muted",
+      "--fs-muted-2",
+      "--fs-on-dark",
+      "--fs-radius",
+      "--fs-radius-lg",
+      "--fs-radius-pill",
+      "--fs-radius-sm",
+      "--fs-radius-xl",
+      "--fs-red",
+      "--fs-red-dark",
+      "--fs-red-soft",
+      "--fs-s-1",
+      "--fs-s-10",
+      "--fs-s-2",
+      "--fs-s-3",
+      "--fs-s-4",
+      "--fs-s-5",
+      "--fs-s-6",
+      "--fs-s-7",
+      "--fs-s-8",
+      "--fs-s-9",
+      "--fs-shadow",
+      "--fs-shadow-lg",
+      "--fs-shadow-sm",
+      "--fs-stone-texture",
+      "--fs-surface-card",
+      "--fs-surface-dark",
+      "--fs-surface-page",
+      "--fs-surface-section",
+      "--fs-text",
+      "--fs-text-body",
+      "--fs-text-on-dark",
+      "--fs-text-secondary",
+      "--fs-text-soft",
+      "--fs-white"
+    ],
+    "tokenKinds": {
+      "--fs-red": "color",
+      "--fs-red-dark": "color",
+      "--fs-red-soft": "color",
+      "--fs-dark": "color",
+      "--fs-dark-2": "color",
+      "--fs-dark-3": "color",
+      "--fs-light": "color",
+      "--fs-light-2": "color",
+      "--fs-white": "color",
+      "--fs-copper": "color",
+      "--fs-brown": "color",
+      "--fs-text": "font",
+      "--fs-text-soft": "font",
+      "--fs-muted": "color",
+      "--fs-muted-2": "color",
+      "--fs-on-dark": "color",
+      "--fs-border": "color",
+      "--fs-border-dark": "color",
+      "--fs-accent-color": "color",
+      "--fs-surface-page": "color",
+      "--fs-surface-section": "color",
+      "--fs-surface-dark": "color",
+      "--fs-surface-card": "color",
+      "--fs-text-body": "font",
+      "--fs-text-secondary": "font",
+      "--fs-text-on-dark": "font",
+      "--fs-eyebrow-on-dark": "color",
+      "--fs-link": "color",
+      "--fs-font-display": "font",
+      "--fs-font-body": "font",
+      "--fs-fs-display": "font",
+      "--fs-fs-h1": "font",
+      "--fs-fs-h2": "font",
+      "--fs-fs-h3": "font",
+      "--fs-fs-h4": "spacing",
+      "--fs-fs-body": "spacing",
+      "--fs-fs-small": "spacing",
+      "--fs-fs-micro": "spacing",
+      "--fs-radius-sm": "radius",
+      "--fs-radius": "radius",
+      "--fs-radius-lg": "radius",
+      "--fs-radius-xl": "radius",
+      "--fs-radius-pill": "radius",
+      "--fs-shadow-sm": "shadow",
+      "--fs-shadow": "shadow",
+      "--fs-shadow-lg": "shadow",
+      "--fs-s-1": "spacing",
+      "--fs-s-2": "spacing",
+      "--fs-s-3": "spacing",
+      "--fs-s-4": "spacing",
+      "--fs-s-5": "spacing",
+      "--fs-s-6": "spacing",
+      "--fs-s-7": "spacing",
+      "--fs-s-8": "spacing",
+      "--fs-s-9": "spacing",
+      "--fs-s-10": "spacing",
+      "--fs-container": "spacing",
+      "--fs-container-narrow": "spacing",
+      "--fs-ease": "other",
+      "--fs-dur": "other",
+      "--fs-stone-texture": "other"
+    },
+    "fontFamilies": [
+      "Urbanist"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+/* ──────────────────────────────────────────────────────────────
+   FABSTONE — Typography tokens
+   Urbanist everywhere (per Figma). Scale anchored to Figma px
+   values at 1440 desktop, fluid below.
+   ────────────────────────────────────────────────────────────── */
+:root {
+	--fs-font-display: 'Urbanist', 'Helvetica Neue', Arial, sans-serif;
+	--fs-font-body:    'Urbanist', 'Helvetica Neue', Arial, sans-serif;
+
+	/* Type scale */
+	--fs-fs-display: clamp(2.6rem, 7vw,    6.25rem); /* @kind font */   /* hero "Elevated by Nature" — 100px */
+	--fs-fs-h1:      clamp(2rem,   4.4vw,  3.75rem); /* @kind font */   /* section H1 — 60px */
+	--fs-fs-h2:      clamp(1.6rem, 2.2vw,  1.875rem); /* @kind font */  /* card H2 — 30px */
+	--fs-fs-h3:      clamp(1.2rem, 1.8vw,  1.5rem); /* @kind font */    /* sub headings — 24px */
+	--fs-fs-h4:      1.125rem;                          /* 18px */
+	--fs-fs-body:    1.125rem;                          /* 18px body */
+	--fs-fs-small:   .875rem;                           /* 14px */
+	--fs-fs-micro:   .75rem;                            /* 12px */
+}

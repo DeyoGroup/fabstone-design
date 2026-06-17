@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fabstone — Website Prototype</title>
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body { margin: 0; }</style>
+<meta name="ext-resource-dependency" content="../../assets/images/logo-fabstone.png">
+<meta name="ext-resource-dependency" content="../../assets/images/hero-poster-scaled.png">
+<meta name="ext-resource-dependency" content="../../assets/images/partner-investify.png">
+<meta name="ext-resource-dependency" content="../../assets/images/partner-knewish.png">
+<meta name="ext-resource-dependency" content="../../assets/images/partner-upglam.png">
+<meta name="ext-resource-dependency" content="../../assets/images/about-why-fabstone-768x1024.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/stone-double-charge-640x480.png">
+<meta name="ext-resource-dependency" content="../../assets/images/stone-slab-porcelain-640x480.png">
+<meta name="ext-resource-dependency" content="../../assets/images/stone-ceramic-wall-640x480.png">
+<meta name="ext-resource-dependency" content="../../assets/images/products/bianco-superiore.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/products/calacatta-alaska-gold.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/products/azzurra-bay.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/products/angola-black.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/products/bianco-marina.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/products/alpine-valley.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/products/aspen-white.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/products/bianco-fantastico.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/products/azul-platino.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/products/absolute-white.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/burlington-pearl-install-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/cappuccino-install-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/kitchen-install-6952-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/kitchen-island-6953-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/kitchen-counter-6954-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/kitchen-sink-6955-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/kitchen-counter-6956-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/kitchen-sink-6957-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/kitchen-counter-6958-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/bathroom-vanity-6959-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/kitchen-island-6960-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/install-photo-1-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/install-photo-2-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/bohemian-blend-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/carpet-04-800x600.jpg">
+<meta name="ext-resource-dependency" content="../../assets/images/carpet-06-800x600.jpg">
+<template id="__bundler_thumbnail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#121212"></rect>
+  <text x="50" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#991B27">FS</text>
+</svg>
+</template>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { HomePage, InventoryPage, ProductPage } = window.FabstoneDesignSystem_e3db74;
+
+// Single-file router: intercepts the pages' relative links
+// (index.html / live-inventory.html / product.html?item=...) and swaps
+// the mounted page instead of navigating.
+function parseRoute(href) {
+  if (!href) return null;
+  if (href.includes('product.html')) {
+    const q = href.split('?')[1] || '';
+    return { page: 'product', item: new URLSearchParams(q).get('item') };
+  }
+  if (href.includes('live-inventory.html')) return { page: 'inventory', item: null };
+  if (href.includes('index.html')) return { page: 'home', item: null };
+  return null;
+}
+
+function App() {
+  const [route, setRoute] = React.useState({ page: 'home', item: null });
+  React.useEffect(() => {
+    const onClick = (e) => {
+      const a = e.target.closest && e.target.closest('a');
+      if (!a) return;
+      const href = a.getAttribute('href') || '';
+      if (href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('http')) return;
+      const r = parseRoute(href);
+      if (r) {
+        e.preventDefault();
+        setRoute(r);
+        window.scrollTo(0, 0);
+      } else if (href === '#' || href === '') {
+        e.preventDefault();
+      }
+    };
+    document.addEventListener('click', onClick, true);
+    return () => document.removeEventListener('click', onClick, true);
+  }, []);
+  const assetBase = '../../assets';
+  if (route.page === 'inventory') return <InventoryPage assetBase={assetBase} />;
+  if (route.page === 'product') return <ProductPage assetBase={assetBase} itemId={route.item} />;
+  return <HomePage assetBase={assetBase} />;
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

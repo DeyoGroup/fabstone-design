@@ -1,0 +1,30 @@
+<!-- @dsCard group="Spacing" viewport="700x170" name="Motion" subtitle="One easing: cubic-bezier(.2,.7,.2,1) @ .25s — hover the samples" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>
+  body{margin:0;font-family:var(--fs-font-body);background:#fff;}
+  .row{display:flex;gap:12px;align-items:stretch;padding:16px;}
+  .sw{flex:1;display:flex;flex-direction:column;gap:6px;}
+  .sw .chip{height:64px;border-radius:10px;border:1px solid rgba(0,0,0,.06);}
+  .sw .lbl{font-size:11px;color:#535367;line-height:1.35;}
+  .sw .lbl b{display:block;color:#121212;font-weight:700;}
+</style><style>
+  .demo{display:flex;gap:20px;align-items:center;padding:24px 32px;}
+  .m-card{width:130px;height:84px;border-radius:24px;background:#fff;border:1px solid #ECECEC;box-shadow:var(--fs-shadow-sm);transition:transform var(--fs-dur) var(--fs-ease), box-shadow var(--fs-dur) var(--fs-ease);display:grid;place-items:center;font:600 12px var(--fs-font-display);color:#535367;}
+  .m-card:hover{transform:translateY(-4px);box-shadow:var(--fs-shadow);}
+  .m-img{width:130px;height:84px;border-radius:16px;overflow:hidden;}
+  .m-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s var(--fs-ease);}
+  .m-img:hover img{transform:scale(1.04);}
+  .m-nav{font:500 20px var(--fs-font-display);color:#2B1E16;position:relative;text-decoration:none;padding:8px 0;}
+  .m-nav::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--fs-red);transform:scaleX(0);transform-origin:left;transition:transform var(--fs-dur) var(--fs-ease);}
+  .m-nav:hover{color:var(--fs-red);}
+  .m-nav:hover::after{transform:scaleX(1);}
+  .m-more{display:inline-flex;align-items:center;gap:6px;font:600 18px var(--fs-font-display);color:#121212;text-decoration:none;}
+  .m-more svg{color:var(--fs-red);transition:transform var(--fs-dur) var(--fs-ease);}
+  .m-more:hover svg{transform:translate(2px,-2px);}
+</style></head><body>
+<div class="demo">
+  <div class="m-card">card lift</div>
+  <div class="m-img"><img src="../assets/images/kitchen-install-6952-800x600.jpg" alt=""></div>
+  <a class="m-nav" href="#">Nav underline</a>
+  <a class="m-more" href="#">Learn More <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+</div>
+</body></html>

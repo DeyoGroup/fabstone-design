@@ -1,0 +1,18 @@
+<!-- @dsCard group="Spacing" viewport="700x200" name="Shadows" subtitle="Nearly flat at rest; soft lift on hover; layered stack on circular arrows" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>
+  body{margin:0;font-family:var(--fs-font-body);background:#fff;}
+  .row{display:flex;gap:12px;align-items:stretch;padding:16px;}
+  .sw{flex:1;display:flex;flex-direction:column;gap:6px;}
+  .sw .chip{height:64px;border-radius:10px;border:1px solid rgba(0,0,0,.06);}
+  .sw .lbl{font-size:11px;color:#535367;line-height:1.35;}
+  .sw .lbl b{display:block;color:#121212;font-weight:700;}
+</style></head><body style="background:var(--fs-light);">
+<div style="display:flex;gap:28px;padding:28px 32px;align-items:center;">
+  <div style="width:150px;height:100px;border-radius:24px;background:#fff;box-shadow:var(--fs-shadow-sm);display:grid;place-items:center;font:600 12px var(--fs-font-display);color:#535367;">sm — rest</div>
+  <div style="width:150px;height:100px;border-radius:24px;background:#fff;box-shadow:var(--fs-shadow);display:grid;place-items:center;font:600 12px var(--fs-font-display);color:#535367;">default — hover</div>
+  <div style="width:150px;height:100px;border-radius:24px;background:#fff;box-shadow:var(--fs-shadow-lg);display:grid;place-items:center;font:600 12px var(--fs-font-display);color:#535367;">lg — floats</div>
+  <button class="fs-arrow" style="border:0;">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+</div>
+</body></html>

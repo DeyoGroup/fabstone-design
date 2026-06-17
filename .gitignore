@@ -1,0 +1,27 @@
+# ── Working artifacts (not part of the design system) ──
+# Raw uploads: source captures, ClickUp attachments, pasted images,
+# the full WordPress site scrape + zip. Provenance only — keep local.
+uploads/
+
+# Internal audit / reference screenshots
+screenshots/
+
+# Editor preview thumbnail
+.thumbnail
+
+# ── OS / editor junk ──
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# ── Node (if tooling is ever added) ──
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.env
+.env.*

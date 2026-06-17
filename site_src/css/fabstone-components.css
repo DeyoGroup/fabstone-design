@@ -1,0 +1,62 @@
+/* ──────────────────────────────────────────────────────────────
+   FABSTONE — Reusable component styles.
+   Anything not bound to a single page section.
+   ────────────────────────────────────────────────────────────── */
+
+/* Figma: prev/next arrows — 48px circles, prev = white fill, next = red fill.
+   !important on width/height/padding because Astra's button reset would
+   otherwise stretch them into pills. */
+.fs-arrows {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 48px;
+}
+.fs-arrow {
+	width: 48px !important;
+	height: 48px !important;
+	min-width: 48px;
+	min-height: 48px;
+	padding: 0 !important;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 0;
+	background: #FFFFFF;
+	color: #0C111F;
+	cursor: pointer;
+	display: inline-grid;
+	place-items: center;
+	line-height: 1;
+	flex: 0 0 48px;
+	transition: background var(--fs-dur) var(--fs-ease), color var(--fs-dur) var(--fs-ease), transform var(--fs-dur) var(--fs-ease), opacity var(--fs-dur) var(--fs-ease);
+	box-shadow:
+		0 7px 16px rgba(0,0,0,.07),
+		0 29px 29px rgba(0,0,0,.06),
+		0 64px 38px rgba(0,0,0,.04);
+}
+.fs-arrow:hover:not(:disabled) { transform: translateY(-1px); }
+.fs-arrow:disabled { opacity: .45; cursor: not-allowed; }
+.fs-arrow svg { display: block; }
+.fs-arrow--primary {
+	background: var(--fs-red);
+	color: var(--fs-white);
+}
+.fs-arrow--primary:hover:not(:disabled) { background: var(--fs-red-dark); }
+
+/* Section heading helper */
+.fs-section-title {
+	font-family: var(--fs-font-display);
+	font-size: var(--fs-fs-h1);
+	margin: 0;
+}
+.fs-section-title em { font-style: normal; color: var(--fs-red); }
+
+/* Tag pill (used on Exclusive product cards) */
+.fs-tag {
+	display: inline-block;
+	font-size: var(--fs-fs-micro);
+	letter-spacing: .12em;
+	text-transform: uppercase;
+	color: var(--fs-red);
+}

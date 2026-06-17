@@ -1,0 +1,57 @@
+<!-- @dsCard group="Components" viewport="700x430" name="Core — Buttons, Pills, Arrows, Search" subtitle="fs-btn variants, frosted pills, pager arrows, search bar, section head" -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>
+  body { margin: 0; background: #fff; }
+  .lane { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 14px 20px; }
+  .lane--dark { background: var(--fs-dark); }
+  .lane--red { background: var(--fs-red); }
+  .cap { font: 600 11px var(--fs-font-display); color: #9A9A9A; text-transform: uppercase; letter-spacing: .1em; padding: 10px 20px 0; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { Button, Pill, ArrowButton, SearchInput, SectionHead } = window.FabstoneDesignSystem_e3db74;
+
+function Demo() {
+  const [q, setQ] = React.useState('');
+  const [tab, setTab] = React.useState('ALL');
+  return (
+    <div>
+      <div className="cap">Buttons — light</div>
+      <div className="lane">
+        <Button variant="primary">Contact Us</Button>
+        <Button variant="outline-dark">Learn More</Button>
+        <Button variant="dark">Order Now</Button>
+      </div>
+      <div className="cap">Buttons — on red / dark</div>
+      <div className="lane lane--red">
+        <Button variant="white">Contact Us</Button>
+        <Button variant="ghost">Live Inventory</Button>
+      </div>
+      <div className="cap">Filter pills + search + arrows — dark sections</div>
+      <div className="lane lane--dark">
+        {['ALL','MARBLE','GRANITE'].map((t) => (
+          <Pill key={t} active={tab === t} onClick={() => setTab(t)}>{t}</Pill>
+        ))}
+      </div>
+      <div className="lane lane--dark" style={{ paddingTop: 0 }}>
+        <div style={{ width: 340 }}><SearchInput value={q} onChange={setQ} /></div>
+        <ArrowButton direction="prev" disabled />
+        <ArrowButton direction="next" />
+      </div>
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo />);
+</script>
+</body>
+</html>

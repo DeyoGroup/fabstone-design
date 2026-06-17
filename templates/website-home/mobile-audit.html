@@ -1,0 +1,175 @@
+<!-- @dsCard group="Website" viewport="560x1000" name="Mobile Audit" subtitle="Pick any site page + device width to audit responsive layouts in a phone frame" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mobile Audit — Fabstone</title>
+<style>
+  :root {
+    --ink: #1c1a18;
+    --muted: #6f6a64;
+    --line: #d8d4cf;
+    --bg: #e7e5e2;
+    --card: #fdfcfb;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, system-ui, "Segoe UI", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 12px 20px;
+    background: var(--card);
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+  }
+  .bar h1 {
+    font-size: 14px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+  }
+  .group { display: flex; align-items: center; gap: 8px; }
+  .group label {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  select {
+    font: inherit;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--ink);
+  }
+  .seg { display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .seg button {
+    font: inherit;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: 0;
+    background: #fff;
+    color: var(--muted);
+    cursor: pointer;
+    border-left: 1px solid var(--line);
+  }
+  .seg button:first-child { border-left: 0; }
+  .seg button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+  .dims { font-size: 12px; color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
+  .stage {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 32px;
+  }
+  .phone {
+    background: #111;
+    border-radius: 44px;
+    padding: 12px;
+    box-shadow: 0 30px 70px rgba(0,0,0,0.22);
+    flex-shrink: 0;
+  }
+  .phone .screen {
+    border-radius: 32px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+  }
+  .phone iframe { border: 0; display: block; }
+</style>
+</head>
+<body>
+  <div class="bar">
+    <h1>Mobile Audit</h1>
+    <div class="group">
+      <label for="page">Page</label>
+      <select id="page"></select>
+    </div>
+    <div class="group">
+      <label>Device</label>
+      <div class="seg" id="device">
+        <button data-w="375" data-h="812">iPhone SE/13&nbsp;mini</button>
+        <button data-w="390" data-h="844" aria-pressed="true">iPhone 14</button>
+        <button data-w="430" data-h="932">iPhone Pro&nbsp;Max</button>
+        <button data-w="768" data-h="1024">iPad (tablet)</button>
+      </div>
+    </div>
+    <span class="dims" id="dims"></span>
+  </div>
+  <div class="stage">
+    <div class="phone" id="phone">
+      <div class="screen" id="screen">
+        <iframe id="frame" title="page preview"></iframe>
+      </div>
+    </div>
+  </div>
+
+<script>
+  const PAGES = [
+    ['Home', './index.html'],
+    ['About Us', '../../ui_kits/website/about.html'],
+    ['Live Inventory', '../../ui_kits/website/live-inventory.html'],
+    ['Product', '../../ui_kits/website/product.html'],
+    ['Reps', '../../ui_kits/website/reps.html'],
+    ['Privacy', '../../ui_kits/website/privacy.html'],
+    ['Terms', '../../ui_kits/website/terms.html'],
+    ['Accessibility', '../../ui_kits/website/accessibility.html'],
+  ];
+
+  const pageSel = document.getElementById('page');
+  PAGES.forEach(([label, href]) => {
+    const o = document.createElement('option');
+    o.value = href; o.textContent = label;
+    pageSel.appendChild(o);
+  });
+
+  const frame = document.getElementById('frame');
+  const screen = document.getElementById('screen');
+  const dims = document.getElementById('dims');
+  const deviceSeg = document.getElementById('device');
+
+  let w = 390, h = 844;
+
+  function apply() {
+    frame.style.width = w + 'px';
+    frame.style.height = h + 'px';
+    screen.style.width = w + 'px';
+    screen.style.height = h + 'px';
+    dims.textContent = w + ' × ' + h + ' px';
+  }
+
+  function loadPage() {
+    if (frame.getAttribute('src') !== pageSel.value) {
+      frame.setAttribute('src', pageSel.value);
+    }
+  }
+
+  pageSel.addEventListener('change', loadPage);
+  deviceSeg.addEventListener('click', (e) => {
+    const btn = e.target.closest('button');
+    if (!btn) return;
+    [...deviceSeg.children].forEach(b => b.setAttribute('aria-pressed', b === btn));
+    w = +btn.dataset.w; h = +btn.dataset.h;
+    apply();
+  });
+
+  apply();
+  loadPage();
+</script>
+</body>
+</html>

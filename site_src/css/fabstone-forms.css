@@ -1,0 +1,78 @@
+/* ──────────────────────────────────────────────────────────────
+   FABSTONE — Gravity Forms styling.
+   Scoped via .fs-form (added by gform_form_tag filter).
+   ────────────────────────────────────────────────────────────── */
+
+.fs-form,
+.fs-form .gform_fields,
+.fs-form .gfield {
+	font-family: var(--fs-font-body);
+}
+
+.fs-form .gfield_label {
+	display: block;
+	font-size: var(--fs-fs-small);
+	font-weight: 500;
+	color: var(--fs-text);
+	margin-bottom: var(--fs-s-2);
+}
+
+.fs-form input[type="text"],
+.fs-form input[type="email"],
+.fs-form input[type="tel"],
+.fs-form input[type="url"],
+.fs-form input[type="number"],
+.fs-form select,
+.fs-form textarea {
+	width: 100%;
+	padding: 14px 16px;
+	background: var(--fs-white);
+	border: 1px solid var(--fs-border);
+	border-radius: var(--fs-radius-sm);
+	font-size: var(--fs-fs-body);
+	color: var(--fs-text);
+	transition: border-color var(--fs-dur), box-shadow var(--fs-dur);
+}
+.fs-form input:focus,
+.fs-form select:focus,
+.fs-form textarea:focus {
+	outline: none;
+	border-color: var(--fs-red);
+	box-shadow: 0 0 0 3px rgba(215,32,48,.15);
+}
+.fs-form textarea { min-height: 140px; resize: vertical; }
+
+.fs-form .gfield--width-half { width: calc(50% - var(--fs-s-3)); display: inline-block; }
+.fs-form .gform_fields { display: grid; gap: var(--fs-s-4); }
+
+.fs-form .gfield_required { color: var(--fs-red); margin-left: 4px; }
+
+.fs-form .gform_footer { margin-top: var(--fs-s-5); }
+.fs-form .gform_button { display: none !important; } /* superseded by gform_submit_button filter */
+
+.fs-form .validation_message,
+.fs-form .gfield_validation_message {
+	color: var(--fs-red);
+	font-size: var(--fs-fs-small);
+	margin-top: var(--fs-s-2);
+}
+
+.fs-form .gform_confirmation_message {
+	background: var(--fs-light);
+	border-left: 4px solid var(--fs-red);
+	padding: var(--fs-s-5);
+	border-radius: var(--fs-radius-sm);
+	color: var(--fs-text);
+}
+
+/* On dark backgrounds */
+.fs-section--dark .fs-form .gfield_label { color: var(--fs-on-dark); }
+.fs-section--dark .fs-form input,
+.fs-section--dark .fs-form textarea,
+.fs-section--dark .fs-form select {
+	background: rgba(255,255,255,.04);
+	border-color: rgba(255,255,255,.15);
+	color: var(--fs-white);
+}
+.fs-section--dark .fs-form input::placeholder,
+.fs-section--dark .fs-form textarea::placeholder { color: rgba(255,255,255,.5); }

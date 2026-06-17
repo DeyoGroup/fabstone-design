@@ -1,0 +1,151 @@
+/* ──────────────────────────────────────────────────────────────
+   FABSTONE — Base styles, utilities, buttons, pills, cards.
+   Ported verbatim from the fabstone-child theme style.css
+   (tokens moved to /tokens/*.css).
+   ────────────────────────────────────────────────────────────── */
+html { scroll-behavior: smooth; }
+
+body {
+	font-family: var(--fs-font-body);
+	color: var(--fs-text);
+	background: var(--fs-white);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6,
+.fs-display, .fs-heading {
+	font-family: var(--fs-font-display);
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 1.05;
+	color: inherit;
+}
+
+.fs-accent { color: var(--fs-red); font-style: italic; }
+.fs-on-dark { color: var(--fs-on-dark); }
+.fs-muted { color: var(--fs-muted); }
+
+/* ── Layout utilities ── */
+.fs-container {
+	max-width: var(--fs-container);
+	margin-inline: auto;
+	padding-inline: var(--fs-s-5);
+}
+.fs-container-narrow {
+	max-width: var(--fs-container-narrow);
+	margin-inline: auto;
+	padding-inline: var(--fs-s-5);
+}
+
+.fs-section {
+	padding-block: var(--fs-s-9);
+}
+.fs-section--dark {
+	background: var(--fs-dark);
+	color: var(--fs-on-dark);
+}
+.fs-section--light {
+	background: var(--fs-light);
+	color: var(--fs-text);
+}
+
+/* ── Buttons ──
+   Figma: 189×48 default button, radius 10px, label 18px/600. */
+.fs-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	min-height: 48px;
+	padding: 12px 26px;
+	font-family: var(--fs-font-display);
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21.6px;
+	letter-spacing: 0;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	text-decoration: none;
+	transition: background var(--fs-dur) var(--fs-ease), color var(--fs-dur) var(--fs-ease), transform var(--fs-dur) var(--fs-ease);
+}
+.fs-btn--primary {
+	background: var(--fs-red);
+	color: var(--fs-white);
+}
+.fs-btn--primary:hover {
+	background: var(--fs-red-dark);
+	color: var(--fs-white);
+}
+.fs-btn--ghost {
+	background: transparent;
+	color: var(--fs-white);
+	border-color: rgba(255,255,255,.4);
+}
+.fs-btn--ghost:hover {
+	background: var(--fs-white);
+	color: var(--fs-dark);
+}
+.fs-btn--dark {
+	background: var(--fs-dark);
+	color: var(--fs-white);
+}
+/* On red CTA banner: white pill with red text. */
+.fs-btn--white {
+	background: var(--fs-white);
+	color: var(--fs-red);
+}
+.fs-btn--white:hover {
+	background: var(--fs-light);
+	color: var(--fs-red-dark);
+}
+.fs-btn--pill { border-radius: var(--fs-radius-pill); }
+
+/* ── Pills / Chips / Tabs ──
+   Figma: filter pills — 58h × 40r, frosted glass (inactive) / solid white (active). */
+.fs-pill {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 58px;
+	padding: 0 24px;
+	border-radius: 40px;
+	font-family: var(--fs-font-display);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0;
+	/* Figma 159:102: pill fill + border are both #FFFFFF 10%. */
+	background: rgba(255,255,255,.10);
+	color: #FFFFFF;
+	border: 1px solid rgba(255,255,255,.10);
+	-webkit-backdrop-filter: blur(24px);
+	backdrop-filter: blur(24px);
+	cursor: pointer;
+	transition: background var(--fs-dur) var(--fs-ease), color var(--fs-dur) var(--fs-ease), border-color var(--fs-dur) var(--fs-ease);
+	white-space: nowrap;
+}
+.fs-pill:hover {
+	background: rgba(255,255,255,.18);
+	color: #0C111F;
+}
+.fs-pill.is-active {
+	background: var(--fs-white);
+	color: #0C111F;
+	font-weight: 700;
+	border-color: var(--fs-white);
+}
+
+/* ── Cards (generic — section-specific styles in sections.css) ── */
+.fs-card {
+	background: var(--fs-white);
+	border-radius: var(--fs-radius);
+	overflow: hidden;
+	box-shadow: var(--fs-shadow-sm);
+	transition: transform var(--fs-dur) var(--fs-ease), box-shadow var(--fs-dur) var(--fs-ease);
+}
+.fs-card:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--fs-shadow);
+}
