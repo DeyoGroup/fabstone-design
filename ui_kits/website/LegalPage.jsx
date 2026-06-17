@@ -3,6 +3,7 @@
 // a sensible baseline for the client's counsel to review and finalize, not legal advice.
 import { SiteHeader } from '../../components/chrome/SiteHeader.jsx';
 import { SiteFooter } from '../../components/chrome/SiteFooter.jsx';
+import { SITE_NAV } from './siteNav.jsx';
 
 const UPDATED = 'June 16, 2026';
 
@@ -87,13 +88,7 @@ export function LegalPage({ assetBase = '../../assets', kind = 'privacy' }) {
   return (
     <div className="fs-body" data-screen-label={doc.title}>
       <SiteHeader logo={assetBase + '/images/logo-fabstone.png'} homeHref="./index.html"
-        nav={[
-          { label: 'Live Inventory', href: './live-inventory.html' },
-          { label: 'Featured', href: './live-inventory.html?highlight=featured' },
-          { label: 'About Us', href: './index.html' },
-          { label: 'Location', href: './index.html' },
-          { label: 'Gallery', href: './index.html' },
-        ]} />
+        nav={SITE_NAV} />
       <main className="fs-main">
         <section className="fs-legal" data-screen-label={'Legal — ' + doc.title}>
           <div className="fs-legal__inner">

@@ -14,6 +14,7 @@ import { CtaBanner } from '../../components/chrome/CtaBanner.jsx';
 import { SearchInput } from '../../components/core/SearchInput.jsx';
 import { ArrowButton } from '../../components/core/ArrowButton.jsx';
 import { InventoryProducts, Departments, DepartmentFacets, SwatchHex, Highlights, BadgeMeta } from './InventoryData.jsx';
+import { SITE_NAV } from './siteNav.jsx';
 
 function dotStyle(name) {
   const hex = SwatchHex[name];
@@ -167,6 +168,8 @@ export function InventoryPage({ assetBase = '../../assets', initialHighlight = n
     const params = new URLSearchParams(window.location.search);
     const hl = params.get('highlight');
     const dp = params.get('dept');
+    const qq = params.get('q');
+    if (qq) setQ(qq);
     if (hl && Highlights.some((h) => h.key === hl)) { setHighlight(hl); setDepts(new Set(Departments)); }
     else if (dp && Departments.includes(dp)) { setDepts(new Set([dp])); }
   }, []);
@@ -260,13 +263,7 @@ export function InventoryPage({ assetBase = '../../assets', initialHighlight = n
   return (
     <div className="fs-body" data-screen-label="Live Inventory">
       <SiteHeader logo={assetBase + '/images/logo-fabstone.png'} homeHref="./index.html" activeItem={highlight ? 'Featured' : 'Live Inventory'}
-        nav={[
-          { label: 'Live Inventory', href: './live-inventory.html' },
-          { label: 'Featured', href: './live-inventory.html?highlight=featured' },
-          { label: 'About Us', href: './index.html' },
-          { label: 'Location', href: './index.html' },
-          { label: 'Gallery', href: './index.html' },
-        ]} />
+        nav={SITE_NAV} />
       <main className="fs-main">
         <section className="fs-inv-band fs-texture" data-screen-label="Inventory band">
           <img className="fs-texture__img" src={assetBase + '/images/stone-double-charge-640x480.png'} alt="" aria-hidden="true" />

@@ -38,11 +38,17 @@ export function SiteHeader({
   ],
   activeItem,
   ctaLabel = 'Contact Us',
-  onCta,
+  onCta = () => { window.location.href = 'mailto:sales@fabsg.com'; },
   onNavClick,
 }) {
   const [menuOpen, setMenuOpen] = React.useState(false);
+  const [term, setTerm] = React.useState('');
   const closeMenu = () => setMenuOpen(false);
+  const submitSearch = (e) => {
+    e.preventDefault();
+    const t = term.trim();
+    window.location.href = './live-inventory.html' + (t ? ('?q=' + encodeURIComponent(t)) : '');
+  };
   const handleNav = (item) => {
     closeMenu();
     if (onNavClick) onNavClick(item);
@@ -56,16 +62,16 @@ export function SiteHeader({
             <a href={'tel:' + phone.replace(/[^0-9]/g, '')} className="fs-util__item"><UtilIconPhone /><span>{phone}</span></a>
           </div>
           <div className="fs-util__right">
-            <a href="#" className="fs-util__item fs-util__item--icon" aria-label="Saved"><UtilIconHeart /></a>
+            <a href="./live-inventory.html?highlight=exclusive" className="fs-util__item fs-util__item--icon" aria-label="Saved"><UtilIconHeart /></a>
             <span className="fs-util__sep" aria-hidden="true"></span>
-            <a href="#" className="fs-util__item">Pay Online</a>
+            <a href="https://www.billerpayments.com/app/guestpayui/index.html?bsn=fabstone#/guestpay/payment" target="_blank" rel="noopener noreferrer" className="fs-util__item">Pay Online</a>
             <span className="fs-util__sep" aria-hidden="true"></span>
-            <form role="search" className="fs-util__search" onSubmit={(e) => e.preventDefault()}>
+            <form role="search" className="fs-util__search" onSubmit={submitSearch}>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="1.6"></circle>
                 <path d="M21 21l-4.3-4.3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"></path>
               </svg>
-              <input type="search" placeholder="Search fabstone.com" />
+              <input type="search" placeholder="Search fabstone.com" value={term} onChange={(e) => setTerm(e.target.value)} />
             </form>
           </div>
         </div>
@@ -145,8 +151,8 @@ export function SiteHeader({
         <div className="fs-mobile__util">
           <a href={'mailto:' + email} className="fs-mobile__util-item"><UtilIconMail /><span>{email}</span></a>
           <a href={'tel:' + phone.replace(/[^0-9]/g, '')} className="fs-mobile__util-item"><UtilIconPhone /><span>{phone}</span></a>
-          <a href="#" className="fs-mobile__util-item" onClick={closeMenu}><UtilIconHeart /><span>Saved</span></a>
-          <a href="#" className="fs-mobile__util-item" onClick={closeMenu}><span>Pay Online</span></a>
+          <a href="./live-inventory.html?highlight=exclusive" className="fs-mobile__util-item" onClick={closeMenu}><UtilIconHeart /><span>Saved</span></a>
+          <a href="https://www.billerpayments.com/app/guestpayui/index.html?bsn=fabstone#/guestpay/payment" target="_blank" rel="noopener noreferrer" className="fs-mobile__util-item" onClick={closeMenu}><span>Pay Online</span></a>
         </div>
         <a href="#" className="fs-btn fs-btn--primary fs-mobile__cta"
           onClick={onCta ? (e) => { e.preventDefault(); closeMenu(); onCta(); } : closeMenu}>{ctaLabel}</a>

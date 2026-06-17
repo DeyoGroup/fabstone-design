@@ -10,18 +10,10 @@ import { SiteFooter } from '../../components/chrome/SiteFooter.jsx';
 import { CtaBanner } from '../../components/chrome/CtaBanner.jsx';
 import { Button } from '../../components/core/Button.jsx';
 import { GallerySection } from './HomeSections.jsx';
+import { SITE_NAV } from './siteNav.jsx';
 
-// Primary nav (shared with reps.html). About Us carries a dropdown.
-export const SITE_NAV = [
-  { label: 'Live Inventory', href: './live-inventory.html' },
-  { label: 'Featured', href: './live-inventory.html?highlight=featured' },
-  { label: 'About Us', href: './about.html', children: [
-    { label: 'Our Team', href: './about.html#about-team' },
-    { label: 'Find a Rep', href: './reps.html' },
-  ] },
-  { label: 'Location', href: './index.html' },
-  { label: 'Gallery', href: './index.html' },
-];
+// Re-exported so existing importers (RepsPage) keep working.
+export { SITE_NAV };
 
 const STATS = [
   { num: '2006', label: 'Privately owned & operated since' },

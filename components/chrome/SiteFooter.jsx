@@ -14,13 +14,13 @@ const fsFooterDefaultCols = [
     { label: 'Slate', href: './live-inventory.html?dept=Slabs%20%26%20Countertops' },
   ] },
   { title: 'Discover', links: [
-    { label: 'Gallery', href: './index.html' },
-    { label: 'Favorites', href: '#' },
+    { label: 'Gallery', href: './index.html#gallery' },
+    { label: 'Favorites', href: './live-inventory.html?highlight=exclusive' },
   ] },
   { title: 'Company', links: [
-    { label: 'About Us', href: './index.html' },
-    { label: 'Location', href: './index.html' },
-    { label: 'Contact Us', href: '#' },
+    { label: 'About Us', href: './about.html' },
+    { label: 'Location', href: './index.html#location' },
+    { label: 'Contact Us', href: 'mailto:sales@fabsg.com' },
   ] },
 ];
 

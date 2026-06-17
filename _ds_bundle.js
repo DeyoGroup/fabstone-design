@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":3,"namespace":"FabstoneDesignSystem_e3db74","components":[{"name":"ExclusiveCard","sourcePath":"components/cards/ExclusiveCard.jsx"},{"name":"StoneCard","sourcePath":"components/cards/StoneCard.jsx"},{"name":"CtaBanner","sourcePath":"components/chrome/CtaBanner.jsx"},{"name":"SiteFooter","sourcePath":"components/chrome/SiteFooter.jsx"},{"name":"SiteHeader","sourcePath":"components/chrome/SiteHeader.jsx"},{"name":"ArrowButton","sourcePath":"components/core/ArrowButton.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"Pill","sourcePath":"components/core/Pill.jsx"},{"name":"SearchInput","sourcePath":"components/core/SearchInput.jsx"},{"name":"SectionHead","sourcePath":"components/core/SectionHead.jsx"},{"name":"SITE_NAV","sourcePath":"ui_kits/website/AboutPage.jsx"},{"name":"AboutPage","sourcePath":"ui_kits/website/AboutPage.jsx"},{"name":"HomePage","sourcePath":"ui_kits/website/HomePage.jsx"},{"name":"HomeHero","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"TrustStrip","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"FeaturedInventory","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"WhyFabstone","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"LocationSection","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"ExclusiveProducts","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"GallerySection","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"Departments","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"Highlights","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"BadgeMeta","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"SwatchHex","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"DepartmentFacets","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"DepartmentSpecs","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"InventoryProducts","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"CardBadges","sourcePath":"ui_kits/website/InventoryPage.jsx"},{"name":"InvMedia","sourcePath":"ui_kits/website/InventoryPage.jsx"},{"name":"InventoryPage","sourcePath":"ui_kits/website/InventoryPage.jsx"},{"name":"LegalPage","sourcePath":"ui_kits/website/LegalPage.jsx"},{"name":"ProductPage","sourcePath":"ui_kits/website/ProductPage.jsx"},{"name":"REPS","sourcePath":"ui_kits/website/RepsDirectory.jsx"},{"name":"RepsDirectory","sourcePath":"ui_kits/website/RepsDirectory.jsx"},{"name":"RepsPage","sourcePath":"ui_kits/website/RepsPage.jsx"}],"sourceHashes":{"components/cards/ExclusiveCard.jsx":"435eca794c81","components/cards/StoneCard.jsx":"372bb2c6b8cd","components/chrome/CtaBanner.jsx":"ef71fcde2fb4","components/chrome/SiteFooter.jsx":"f38b2361795e","components/chrome/SiteHeader.jsx":"6f61e7a23947","components/core/ArrowButton.jsx":"cc79b489ed11","components/core/Button.jsx":"7722c349eccc","components/core/Pill.jsx":"c3f3518bc50b","components/core/SearchInput.jsx":"1cac31a1cfa8","components/core/SectionHead.jsx":"553e6053c9e7","site_src/js/fabstone-main.js":"acf232d0e5d0","ui_kits/website/AboutPage.jsx":"3f2406f0b5a7","ui_kits/website/HomePage.jsx":"69257d89b348","ui_kits/website/HomeSections.jsx":"fd6a768e6ddc","ui_kits/website/InventoryData.jsx":"18ad73863749","ui_kits/website/InventoryPage.jsx":"d5fd0495ae39","ui_kits/website/LegalPage.jsx":"6e75cf0d2f59","ui_kits/website/ProductPage.jsx":"35a05e2e2348","ui_kits/website/RepsDirectory.jsx":"07fd7b9fc48a","ui_kits/website/RepsPage.jsx":"5e984330eac9","ui_kits/website/ios-frame.jsx":"be3343be4b51"},"inlinedExternals":[],"unexposedExports":[]} */
+/* @ds-bundle: {"format":3,"namespace":"FabstoneDesignSystem_e3db74","components":[{"name":"ExclusiveCard","sourcePath":"components/cards/ExclusiveCard.jsx"},{"name":"StoneCard","sourcePath":"components/cards/StoneCard.jsx"},{"name":"CtaBanner","sourcePath":"components/chrome/CtaBanner.jsx"},{"name":"SiteFooter","sourcePath":"components/chrome/SiteFooter.jsx"},{"name":"SiteHeader","sourcePath":"components/chrome/SiteHeader.jsx"},{"name":"ArrowButton","sourcePath":"components/core/ArrowButton.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"Pill","sourcePath":"components/core/Pill.jsx"},{"name":"SearchInput","sourcePath":"components/core/SearchInput.jsx"},{"name":"SectionHead","sourcePath":"components/core/SectionHead.jsx"},{"name":"SITE_NAV","sourcePath":"ui_kits/website/siteNav.jsx"},{"name":"AboutPage","sourcePath":"ui_kits/website/AboutPage.jsx"},{"name":"HomePage","sourcePath":"ui_kits/website/HomePage.jsx"},{"name":"HomeHero","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"TrustStrip","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"FeaturedInventory","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"WhyFabstone","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"LocationSection","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"ExclusiveProducts","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"GallerySection","sourcePath":"ui_kits/website/HomeSections.jsx"},{"name":"Departments","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"Highlights","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"BadgeMeta","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"SwatchHex","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"DepartmentFacets","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"DepartmentSpecs","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"InventoryProducts","sourcePath":"ui_kits/website/InventoryData.jsx"},{"name":"CardBadges","sourcePath":"ui_kits/website/InventoryPage.jsx"},{"name":"InvMedia","sourcePath":"ui_kits/website/InventoryPage.jsx"},{"name":"InventoryPage","sourcePath":"ui_kits/website/InventoryPage.jsx"},{"name":"LegalPage","sourcePath":"ui_kits/website/LegalPage.jsx"},{"name":"ProductPage","sourcePath":"ui_kits/website/ProductPage.jsx"},{"name":"REPS","sourcePath":"ui_kits/website/RepsDirectory.jsx"},{"name":"RepsDirectory","sourcePath":"ui_kits/website/RepsDirectory.jsx"},{"name":"RepsPage","sourcePath":"ui_kits/website/RepsPage.jsx"}],"sourceHashes":{"components/cards/ExclusiveCard.jsx":"435eca794c81","components/cards/StoneCard.jsx":"372bb2c6b8cd","components/chrome/CtaBanner.jsx":"86549bc81b85","components/chrome/SiteFooter.jsx":"63030a025c90","components/chrome/SiteHeader.jsx":"7527108f3bff","components/core/ArrowButton.jsx":"cc79b489ed11","components/core/Button.jsx":"7722c349eccc","components/core/Pill.jsx":"c3f3518bc50b","components/core/SearchInput.jsx":"1cac31a1cfa8","components/core/SectionHead.jsx":"553e6053c9e7","site_src/js/fabstone-main.js":"acf232d0e5d0","ui_kits/website/AboutPage.jsx":"4000577c29fe","ui_kits/website/HomePage.jsx":"e942d12464cb","ui_kits/website/HomeSections.jsx":"678e87033149","ui_kits/website/InventoryData.jsx":"18ad73863749","ui_kits/website/InventoryPage.jsx":"c66e7c9bd861","ui_kits/website/LegalPage.jsx":"f513956f583b","ui_kits/website/ProductPage.jsx":"aa0779dd0d5d","ui_kits/website/RepsDirectory.jsx":"07fd7b9fc48a","ui_kits/website/RepsPage.jsx":"5e984330eac9","ui_kits/website/ios-frame.jsx":"be3343be4b51","ui_kits/website/siteNav.jsx":"be9a9571e3a7"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -114,8 +114,12 @@ function CtaBanner({
   lede = 'Connect with our design team or explore the full collection.',
   primaryLabel = 'Contact Us',
   secondaryLabel = 'Live Inventory',
-  onPrimary,
-  onSecondary
+  onPrimary = () => {
+    window.location.href = 'mailto:sales@fabsg.com';
+  },
+  onSecondary = () => {
+    window.location.href = './live-inventory.html';
+  }
 }) {
   return /*#__PURE__*/React.createElement("section", {
     className: "fs-cta-banner"
@@ -210,22 +214,22 @@ const fsFooterDefaultCols = [{
   title: 'Discover',
   links: [{
     label: 'Gallery',
-    href: './index.html'
+    href: './index.html#gallery'
   }, {
     label: 'Favorites',
-    href: '#'
+    href: './live-inventory.html?highlight=exclusive'
   }]
 }, {
   title: 'Company',
   links: [{
     label: 'About Us',
-    href: './index.html'
+    href: './about.html'
   }, {
     label: 'Location',
-    href: './index.html'
+    href: './index.html#location'
   }, {
     label: 'Contact Us',
-    href: '#'
+    href: 'mailto:sales@fabsg.com'
   }]
 }];
 function SiteFooter({
@@ -374,11 +378,19 @@ function SiteHeader({
   }],
   activeItem,
   ctaLabel = 'Contact Us',
-  onCta,
+  onCta = () => {
+    window.location.href = 'mailto:sales@fabsg.com';
+  },
   onNavClick
 }) {
   const [menuOpen, setMenuOpen] = React.useState(false);
+  const [term, setTerm] = React.useState('');
   const closeMenu = () => setMenuOpen(false);
+  const submitSearch = e => {
+    e.preventDefault();
+    const t = term.trim();
+    window.location.href = './live-inventory.html' + (t ? '?q=' + encodeURIComponent(t) : '');
+  };
   const handleNav = item => {
     closeMenu();
     if (onNavClick) onNavClick(item);
@@ -400,14 +412,16 @@ function SiteHeader({
   }, /*#__PURE__*/React.createElement(UtilIconPhone, null), /*#__PURE__*/React.createElement("span", null, phone))), /*#__PURE__*/React.createElement("div", {
     className: "fs-util__right"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "#",
+    href: "./live-inventory.html?highlight=exclusive",
     className: "fs-util__item fs-util__item--icon",
     "aria-label": "Saved"
   }, /*#__PURE__*/React.createElement(UtilIconHeart, null)), /*#__PURE__*/React.createElement("span", {
     className: "fs-util__sep",
     "aria-hidden": "true"
   }), /*#__PURE__*/React.createElement("a", {
-    href: "#",
+    href: "https://www.billerpayments.com/app/guestpayui/index.html?bsn=fabstone#/guestpay/payment",
+    target: "_blank",
+    rel: "noopener noreferrer",
     className: "fs-util__item"
   }, "Pay Online"), /*#__PURE__*/React.createElement("span", {
     className: "fs-util__sep",
@@ -415,7 +429,7 @@ function SiteHeader({
   }), /*#__PURE__*/React.createElement("form", {
     role: "search",
     className: "fs-util__search",
-    onSubmit: e => e.preventDefault()
+    onSubmit: submitSearch
   }, /*#__PURE__*/React.createElement("svg", {
     width: "14",
     height: "14",
@@ -435,7 +449,9 @@ function SiteHeader({
     strokeLinecap: "round"
   })), /*#__PURE__*/React.createElement("input", {
     type: "search",
-    placeholder: "Search fabstone.com"
+    placeholder: "Search fabstone.com",
+    value: term,
+    onChange: e => setTerm(e.target.value)
   }))))), /*#__PURE__*/React.createElement("div", {
     className: "fs-header"
   }, /*#__PURE__*/React.createElement("div", {
@@ -532,11 +548,13 @@ function SiteHeader({
     href: 'tel:' + phone.replace(/[^0-9]/g, ''),
     className: "fs-mobile__util-item"
   }, /*#__PURE__*/React.createElement(UtilIconPhone, null), /*#__PURE__*/React.createElement("span", null, phone)), /*#__PURE__*/React.createElement("a", {
-    href: "#",
+    href: "./live-inventory.html?highlight=exclusive",
     className: "fs-mobile__util-item",
     onClick: closeMenu
   }, /*#__PURE__*/React.createElement(UtilIconHeart, null), /*#__PURE__*/React.createElement("span", null, "Saved")), /*#__PURE__*/React.createElement("a", {
-    href: "#",
+    href: "https://www.billerpayments.com/app/guestpayui/index.html?bsn=fabstone#/guestpay/payment",
+    target: "_blank",
+    rel: "noopener noreferrer",
     className: "fs-mobile__util-item",
     onClick: closeMenu
   }, /*#__PURE__*/React.createElement("span", null, "Pay Online"))), /*#__PURE__*/React.createElement("a", {
@@ -1908,6 +1926,7 @@ function LocationSection({
 }) {
   return /*#__PURE__*/React.createElement("section", {
     className: "fs2-location",
+    id: "location",
     "data-screen-label": "Location"
   }, /*#__PURE__*/React.createElement("div", {
     className: "fs2-location__inner"
@@ -2096,6 +2115,7 @@ function GallerySection({
   const rows = [photos.slice(0, half), photos.slice(half)];
   return /*#__PURE__*/React.createElement("section", {
     className: "fs-gallery fs-gallery--scroll",
+    id: "gallery",
     "data-screen-label": "Gallery"
   }, /*#__PURE__*/React.createElement("div", {
     className: "fs-gallery__head"
@@ -2127,1190 +2147,6 @@ function GallerySection({
 }
 Object.assign(__ds_scope, { HomeHero, TrustStrip, FeaturedInventory, WhyFabstone, LocationSection, ExclusiveProducts, GallerySection });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/HomeSections.jsx", error: String((e && e.message) || e) }); }
-
-// ui_kits/website/AboutPage.jsx
-try { (() => {
-// Fabstone website UI kit — About Us page.
-// Built from the home page's visual language (dark stone-texture bands, red
-// italic ems, copper/red eyebrows, the fs2-about split + frosted badge, the
-// shared red CTA banner). Copy is the client's real story: privately owned
-// since 2006, four-acre yard in Melissa TX, direct imports, 15 states served,
-// 150+ years of collective experience. Story / Gallery / CTA reuse existing
-// classes and components verbatim.
-
-// Primary nav (shared with reps.html). About Us carries a dropdown.
-const SITE_NAV = [{
-  label: 'Live Inventory',
-  href: './live-inventory.html'
-}, {
-  label: 'Featured',
-  href: './live-inventory.html?highlight=featured'
-}, {
-  label: 'About Us',
-  href: './about.html',
-  children: [{
-    label: 'Our Team',
-    href: './about.html#about-team'
-  }, {
-    label: 'Find a Rep',
-    href: './reps.html'
-  }]
-}, {
-  label: 'Location',
-  href: './index.html'
-}, {
-  label: 'Gallery',
-  href: './index.html'
-}];
-const STATS = [{
-  num: '2006',
-  label: 'Privately owned & operated since'
-}, {
-  num: '4',
-  em: ' acres',
-  label: 'Slab yard in Melissa, Texas'
-}, {
-  num: '15',
-  label: 'Southern-central states served'
-}, {
-  num: '150',
-  em: '+',
-  label: 'Years of collective experience'
-}];
-const PROCESS = [{
-  n: '01',
-  h: 'Imported Direct',
-  p: 'We bring slabs in directly from quarries in Brazil, India, Europe and beyond — no middlemen, better stone, better pricing.'
-}, {
-  n: '02',
-  h: 'Hand-Selected',
-  p: 'Every block is chosen for quality and character, then brought to our four-acre yard in Melissa, Texas.'
-}, {
-  n: '03',
-  h: 'Live Inventory',
-  p: 'Each slab is photographed and tracked in real time, so what you reserve is exactly what arrives on site.'
-}, {
-  n: '04',
-  h: 'Fabrication & Install',
-  p: 'Long-term partners who excel in the trade cut, finish and install — backed by 150+ years of collective craft.'
-}];
-const TEAM = [{
-  role: 'Founder & Owner',
-  dept: 'Leadership'
-}, {
-  role: 'Sales Director',
-  dept: 'Sales'
-}, {
-  role: 'Operations Manager',
-  dept: 'Operations'
-}, {
-  role: 'Fabrication Lead',
-  dept: 'Production'
-}];
-function AboutPage({
-  assetBase = '../../assets'
-}) {
-  const go = href => {
-    window.location.href = href;
-  };
-  const contact = () => {
-    window.location.href = 'mailto:sales@fabsg.com';
-  };
-  return /*#__PURE__*/React.createElement("div", {
-    className: "fs-body",
-    "data-screen-label": "About Us"
-  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
-    logo: assetBase + '/images/logo-fabstone.png',
-    homeHref: "./index.html",
-    activeItem: "About Us",
-    onCta: contact,
-    nav: SITE_NAV
-  }), /*#__PURE__*/React.createElement("main", {
-    className: "fs-main"
-  }, /*#__PURE__*/React.createElement("section", {
-    className: "fs-about-hero",
-    "data-screen-label": "About \u2014 Hero"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-hero__inner"
-  }, /*#__PURE__*/React.createElement("nav", {
-    className: "fs-breadcrumb",
-    "aria-label": "Breadcrumb"
-  }, /*#__PURE__*/React.createElement("a", {
-    href: "./index.html"
-  }, "Home"), /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true"
-  }, "/"), /*#__PURE__*/React.createElement("span", {
-    "aria-current": "page"
-  }, "About Us")), /*#__PURE__*/React.createElement("div", {
-    className: "eyebrow"
-  }, "About Us"), /*#__PURE__*/React.createElement("h1", null, "Elevated by ", /*#__PURE__*/React.createElement("em", null, "Nature")), /*#__PURE__*/React.createElement("p", null, "Premium natural stone and quartz \u2014 imported direct, hand-selected and tracked in live inventory at our Melissa, Texas yard since 2006."))), /*#__PURE__*/React.createElement("section", {
-    className: "fs-about-story",
-    "data-screen-label": "About \u2014 Story"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-story__inner"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-story__media"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-story__frame"
-  }, /*#__PURE__*/React.createElement("img", {
-    src: assetBase + '/images/about-why-fabstone-768x1024.jpg',
-    alt: "Fabstone slab yard in Melissa, Texas",
-    loading: "lazy"
-  })), /*#__PURE__*/React.createElement("span", {
-    className: "fs-about-story__stamp"
-  }, /*#__PURE__*/React.createElement("small", null, "Est."), /*#__PURE__*/React.createElement("strong", null, "2006"))), /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-story__copy"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "eyebrow"
-  }, "Our Story"), /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", {
-    className: "fs-accent"
-  }, "Family"), " Owned Since 2006"), /*#__PURE__*/React.createElement("p", {
-    className: "fs-about-story__lead"
-  }, "Four acres of hand-selected stone in Melissa, Texas \u2014 from builder-grade surfaces to semi-precious granite, marble and quartzite."), /*#__PURE__*/React.createElement("p", null, "Fabstone has been privately owned and operated since 2006, importing our collections direct from Brazil, India, Europe and beyond \u2014 no middlemen, no compromises."), /*#__PURE__*/React.createElement("p", null, "We currently serve 15 southern-central states alongside long-term partners who excel in the slab and fabrication industry, backed by more than 150 years of collective experience."), /*#__PURE__*/React.createElement("div", {
-    className: "fs2-about__actions"
-  }, /*#__PURE__*/React.createElement(__ds_scope.Button, {
-    variant: "primary",
-    href: "./live-inventory.html"
-  }, "Browse Live Inventory"), /*#__PURE__*/React.createElement(__ds_scope.Button, {
-    variant: "outline-dark",
-    onClick: contact
-  }, "Schedule a Visit"))))), /*#__PURE__*/React.createElement("section", {
-    className: "fs-about-stats",
-    "data-screen-label": "About \u2014 Stats"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-stats__inner"
-  }, STATS.map(s => /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-stat",
-    key: s.label
-  }, /*#__PURE__*/React.createElement("p", {
-    className: "fs-about-stat__num"
-  }, s.num, s.em ? /*#__PURE__*/React.createElement("em", null, s.em) : null), /*#__PURE__*/React.createElement("p", {
-    className: "fs-about-stat__label"
-  }, s.label))))), /*#__PURE__*/React.createElement("section", {
-    className: "fs-about-process",
-    "data-screen-label": "About \u2014 How We Work"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-spaces__head"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "eyebrow"
-  }, "Our Process"), /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", null, "How"), " We Work"), /*#__PURE__*/React.createElement("p", null, "From the quarry to your countertop, every slab moves through four deliberate steps.")), /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-process__inner"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-process__grid"
-  }, PROCESS.map(step => /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-step",
-    key: step.n
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "fs-about-step__num"
-  }, step.n), /*#__PURE__*/React.createElement("span", {
-    className: "fs-about-step__rule",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/React.createElement("h3", null, step.h), /*#__PURE__*/React.createElement("p", null, step.p)))))), /*#__PURE__*/React.createElement("section", {
-    className: "fs-about-team",
-    id: "about-team",
-    "data-screen-label": "About \u2014 Team"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-spaces__head"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "eyebrow"
-  }, "Our People"), /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", null, "The"), " Fabstone Team"), /*#__PURE__*/React.createElement("p", null, "The people who source, photograph and fabricate every Fabstone slab.")), /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-team__inner"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-team__grid"
-  }, TEAM.map(m => /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-member",
-    key: m.role
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-member__photo"
-  }, /*#__PURE__*/React.createElement("span", null, "Add headshot")), /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-member__body"
-  }, /*#__PURE__*/React.createElement("h3", null, m.role), /*#__PURE__*/React.createElement("p", null, m.dept))))), /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-team__cta"
-  }, /*#__PURE__*/React.createElement(__ds_scope.Button, {
-    variant: "primary",
-    href: "./reps.html"
-  }, "Find My Sales Rep")))), /*#__PURE__*/React.createElement(__ds_scope.GallerySection, {
-    assetBase: assetBase
-  }), /*#__PURE__*/React.createElement(__ds_scope.CtaBanner, {
-    eyebrow: "Visit Us",
-    title: "Schedule a Shopping Appointment",
-    lede: "Come hand-pick your slab at our Melissa, TX yard \u2014 or reserve online from live inventory.",
-    primaryLabel: "Contact Us",
-    secondaryLabel: "Live Inventory",
-    onPrimary: contact,
-    onSecondary: () => go('./live-inventory.html')
-  })), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
-    logo: assetBase + '/images/logo-fabstone.png'
-  }));
-}
-Object.assign(__ds_scope, { SITE_NAV, AboutPage });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/AboutPage.jsx", error: String((e && e.message) || e) }); }
-
-// ui_kits/website/HomePage.jsx
-try { (() => {
-// Fabstone website UI kit — Home page (recreation of /home2/).
-// Per client direction: the "SOCI + Elements" platform section is omitted
-// and lorem-ipsum copy is replaced with realistic stone-industry copy.
-
-function HomePage({
-  assetBase = '../../assets'
-}) {
-  return /*#__PURE__*/React.createElement("div", {
-    className: "fs-body",
-    "data-screen-label": "Home"
-  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
-    logo: assetBase + '/images/logo-fabstone.png',
-    homeHref: "./index.html",
-    nav: [{
-      label: 'Live Inventory',
-      href: './live-inventory.html'
-    }, {
-      label: 'Featured',
-      href: './live-inventory.html?highlight=featured'
-    }, {
-      label: 'About Us',
-      href: '#'
-    }, {
-      label: 'Location',
-      href: '#'
-    }, {
-      label: 'Gallery',
-      href: '#'
-    }]
-  }), /*#__PURE__*/React.createElement("main", {
-    className: "fs-main"
-  }, /*#__PURE__*/React.createElement(__ds_scope.HomeHero, {
-    poster: assetBase + '/images/hero-poster-scaled.png'
-  }), /*#__PURE__*/React.createElement(__ds_scope.TrustStrip, {
-    assetBase: assetBase
-  }), /*#__PURE__*/React.createElement(__ds_scope.FeaturedInventory, {
-    assetBase: assetBase
-  }), /*#__PURE__*/React.createElement(__ds_scope.WhyFabstone, {
-    assetBase: assetBase
-  }), /*#__PURE__*/React.createElement(__ds_scope.LocationSection, {
-    assetBase: assetBase
-  }), /*#__PURE__*/React.createElement(__ds_scope.ExclusiveProducts, {
-    assetBase: assetBase,
-    onExplore: () => {
-      window.location.href = './live-inventory.html?highlight=exclusive';
-    }
-  }), /*#__PURE__*/React.createElement(__ds_scope.GallerySection, {
-    assetBase: assetBase
-  }), /*#__PURE__*/React.createElement(__ds_scope.CtaBanner, null)), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
-    logo: assetBase + '/images/logo-fabstone.png'
-  }));
-}
-Object.assign(__ds_scope, { HomePage });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/HomePage.jsx", error: String((e && e.message) || e) }); }
-
-// ui_kits/website/InventoryPage.jsx
-try { (() => {
-// Fabstone website UI kit — Live Inventory page.
-// Department-first faceted browser modeled on fabstone.stoneprofitsweb.com:
-// 5 departments (Slabs & Countertops, Tile, Sinks, Faucets & Fixtures,
-// Shop & Supplies), an ADAPTIVE sidebar whose facets change per department,
-// color/finish swatches, search, per-page selector, pagination.
-//
-// Merchandising layer: cross-department Highlights (Featured / Exclusive / On
-// Sale) shown as a top filter row + card badges. Departments are MULTI-SELECT,
-// so a Highlight (e.g. Featured) can span the whole catalog. Deep-linkable via
-// ?highlight=featured|exclusive|sale and ?dept=<Department name>.
-
-function dotStyle(name) {
-  const hex = __ds_scope.SwatchHex[name];
-  if (hex === 'multi') {
-    return {
-      backgroundImage: 'conic-gradient(#8C4A35, #B8924A, #55634C, #3F5E78, #6B4A33, #8C4A35)'
-    };
-  }
-  return {
-    background: hex || '#cfcabf'
-  };
-}
-
-// Card corner badges — literal flags set on the product (exclusive > featured > sale).
-function CardBadges({
-  product
-}) {
-  const keys = ['exclusive', 'featured', 'sale'].filter(k => product[k]);
-  if (!keys.length) return null;
-  return /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv-card__badges"
-  }, keys.map(k => /*#__PURE__*/React.createElement("span", {
-    key: k,
-    className: 'fs-badge ' + __ds_scope.BadgeMeta[k].cls
-  }, __ds_scope.BadgeMeta[k].label)));
-}
-
-// Shared media: real photo, or a tinted "image coming soon" placeholder.
-function InvMedia({
-  product,
-  assetBase,
-  cls
-}) {
-  const src = product.imgUrl || (product.img ? assetBase + '/images/' + product.img : null);
-  if (src) return /*#__PURE__*/React.createElement("img", {
-    src: src,
-    alt: product.name,
-    loading: "lazy"
-  });
-  return /*#__PURE__*/React.createElement("div", {
-    className: 'fs-ph ' + (cls || ''),
-    style: dotStyle(product.color)
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "fs-ph__scrim",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/React.createElement("span", {
-    className: "fs-ph__tag"
-  }, product.tag), /*#__PURE__*/React.createElement("span", {
-    className: "fs-ph__note"
-  }, "Image coming soon"));
-}
-function CheckFacet({
-  label,
-  options,
-  counts,
-  selected,
-  onToggle
-}) {
-  return /*#__PURE__*/React.createElement("div", {
-    className: "fs-facet"
-  }, /*#__PURE__*/React.createElement("h3", null, label), /*#__PURE__*/React.createElement("ul", {
-    className: "fs-facet__list"
-  }, options.map(opt => {
-    const n = counts[opt] || 0;
-    const on = selected.has(opt);
-    return /*#__PURE__*/React.createElement("li", {
-      key: opt
-    }, /*#__PURE__*/React.createElement("label", {
-      className: 'fs-facet__opt' + (!n && !on ? ' is-empty' : '')
-    }, /*#__PURE__*/React.createElement("input", {
-      type: "checkbox",
-      checked: on,
-      disabled: !n && !on,
-      onChange: () => onToggle(opt)
-    }), /*#__PURE__*/React.createElement("span", null, opt), /*#__PURE__*/React.createElement("span", {
-      className: "count"
-    }, n)));
-  })));
-}
-function SwatchFacet({
-  label,
-  options,
-  counts,
-  selected,
-  onToggle
-}) {
-  return /*#__PURE__*/React.createElement("div", {
-    className: "fs-facet"
-  }, /*#__PURE__*/React.createElement("h3", null, label), /*#__PURE__*/React.createElement("ul", {
-    className: "fs-facet__list"
-  }, options.map(opt => {
-    const n = counts[opt] || 0;
-    const on = selected.has(opt);
-    return /*#__PURE__*/React.createElement("li", {
-      key: opt
-    }, /*#__PURE__*/React.createElement("button", {
-      type: "button",
-      className: 'fs-facet__swatch' + (on ? ' is-active' : ''),
-      disabled: !n && !on,
-      onClick: () => onToggle(opt)
-    }, /*#__PURE__*/React.createElement("span", {
-      className: "fs-facet__dot",
-      style: dotStyle(opt)
-    }), /*#__PURE__*/React.createElement("span", null, opt), /*#__PURE__*/React.createElement("span", {
-      className: "count"
-    }, n)));
-  })));
-}
-function InvCard({
-  product,
-  assetBase
-}) {
-  return /*#__PURE__*/React.createElement("a", {
-    className: "fs-inv-card",
-    href: './product.html?item=' + product.id
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv-card__media"
-  }, /*#__PURE__*/React.createElement(CardBadges, {
-    product: product
-  }), /*#__PURE__*/React.createElement(InvMedia, {
-    product: product,
-    assetBase: assetBase
-  })), /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv-card__body"
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "fs-inv-card__tag"
-  }, product.tag), /*#__PURE__*/React.createElement("h3", {
-    className: "fs-inv-card__title"
-  }, product.name), /*#__PURE__*/React.createElement("span", {
-    className: "fs-inv-card__meta"
-  }, product.meta)));
-}
-
-// Adaptive facets for the selected department(s):
-//  • exactly 1 department → that department's full adaptive facet list (unchanged).
-//  • 2+ departments     → a compact UNIVERSAL set (Color/Finish, Material, Brand)
-//    built from the values actually present, so it never shows an empty facet.
-const UNIVERSAL_FACETS = [{
-  key: 'color',
-  label: 'Color / Finish',
-  swatch: true
-}, {
-  key: 'material',
-  label: 'Material'
-}, {
-  key: 'brand',
-  label: 'Brand'
-}];
-function buildFacets(deptList) {
-  if (deptList.length === 1) return __ds_scope.DepartmentFacets[deptList[0]];
-  if (deptList.length === 0) return [];
-  const pool = __ds_scope.InventoryProducts.filter(p => deptList.includes(p.department));
-  const out = [];
-  for (const u of UNIVERSAL_FACETS) {
-    const order = [];
-    const seen = new Set();
-    for (const d of deptList) {
-      for (const f of __ds_scope.DepartmentFacets[d]) {
-        if (f.key === u.key) for (const o of f.options) if (!seen.has(o)) {
-          seen.add(o);
-          order.push(o);
-        }
-      }
-    }
-    for (const p of pool) {
-      const v = p[u.key];
-      if (v && !seen.has(v)) {
-        seen.add(v);
-        order.push(v);
-      }
-    }
-    const present = order.filter(o => pool.some(p => p[u.key] === o));
-    if (present.length) out.push({
-      ...u,
-      options: present
-    });
-  }
-  return out;
-}
-
-// Contextual band copy per active highlight.
-function bandCopy(highlight) {
-  switch (highlight) {
-    case 'featured':
-      return {
-        eyebrow: 'Highlights',
-        word: 'Featured',
-        rest: ' Inventory',
-        lede: 'Popular picks and current deals — hand-selected from across every department.'
-      };
-    case 'exclusive':
-      return {
-        eyebrow: 'Fabstone Originals',
-        word: 'Exclusive',
-        rest: ' Collection',
-        lede: 'Limited-run, Fabstone-branded surfaces and supplies you won\u2019t find anywhere else.'
-      };
-    case 'sale':
-      return {
-        eyebrow: 'Limited Time',
-        word: 'On Sale',
-        rest: ' Now',
-        lede: 'Current price drops across the yard \u2014 reserve before they\u2019re gone.'
-      };
-    default:
-      return {
-        eyebrow: 'Browse the Catalog',
-        word: 'Live',
-        rest: ' Inventory',
-        lede: 'Every slab, sink, tile and fixture in our Melissa, TX yard \u2014 photographed, measured and updated in real time.'
-      };
-  }
-}
-function InventoryPage({
-  assetBase = '../../assets',
-  initialHighlight = null,
-  initialDept = null
-}) {
-  const [highlight, setHighlight] = React.useState(initialHighlight);
-  const [depts, setDepts] = React.useState(() => new Set(initialHighlight ? __ds_scope.Departments : [initialDept || __ds_scope.Departments[0]]));
-  const [q, setQ] = React.useState('');
-  const [sel, setSel] = React.useState({});
-  const [perPage, setPerPage] = React.useState(9);
-  const [page, setPage] = React.useState(0);
-  const [filtersOpen, setFiltersOpen] = React.useState(false); // collapsed on mobile; CSS keeps it open on desktop
-
-  // Deep-link: ?highlight=featured|exclusive|sale and ?dept=<name>
-  React.useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const hl = params.get('highlight');
-    const dp = params.get('dept');
-    if (hl && __ds_scope.Highlights.some(h => h.key === hl)) {
-      setHighlight(hl);
-      setDepts(new Set(__ds_scope.Departments));
-    } else if (dp && __ds_scope.Departments.includes(dp)) {
-      setDepts(new Set([dp]));
-    }
-  }, []);
-  const activeDepts = __ds_scope.Departments.filter(d => depts.has(d));
-  const facets = buildFacets(activeDepts);
-  const sizeOf = key => sel[key] ? sel[key].size : 0;
-  const hlMatch = p => highlight ? __ds_scope.Highlights.find(h => h.key === highlight).match(p) : true;
-  const toggleDept = d => {
-    setSel({});
-    setPage(0);
-    setDepts(prev => {
-      const next = new Set(prev);
-      next.has(d) ? next.delete(d) : next.add(d);
-      return next;
-    });
-  };
-  const allDepts = () => {
-    setDepts(new Set(__ds_scope.Departments));
-    setSel({});
-    setPage(0);
-  };
-  const pickHighlight = key => {
-    setHighlight(key);
-    setDepts(new Set(__ds_scope.Departments));
-    setSel({});
-    setPage(0);
-  };
-  const toggle = (key, opt) => {
-    setSel(prev => {
-      const next = new Set(prev[key] || []);
-      next.has(opt) ? next.delete(opt) : next.add(opt);
-      return {
-        ...prev,
-        [key]: next
-      };
-    });
-    setPage(0);
-  };
-  const clearAll = () => {
-    setSel({});
-    setQ('');
-    setHighlight(null);
-    setPage(0);
-  };
-  const matchesSearch = p => q.trim() === '' || (p.name + ' ' + (p.tag || '') + ' ' + (p.material || '') + ' ' + (p.brand || '') + ' ' + (p.color || '')).toLowerCase().includes(q.trim().toLowerCase());
-  const matchesFacets = (p, skipKey) => facets.every(({
-    key
-  }) => key === skipKey || sizeOf(key) === 0 || sel[key] && sel[key].has(p[key]));
-  const pool = __ds_scope.InventoryProducts.filter(p => depts.has(p.department));
-  const filtered = pool.filter(p => matchesFacets(p, null) && matchesSearch(p) && hlMatch(p));
-
-  // Department pill counts respect search + highlight (ignore dept/facet selection).
-  const deptCounts = {};
-  for (const d of __ds_scope.Departments) deptCounts[d] = __ds_scope.InventoryProducts.filter(p => p.department === d && matchesSearch(p) && hlMatch(p)).length;
-
-  // Highlight chip counts respect search only (across the whole catalog).
-  const hlCounts = {
-    all: __ds_scope.InventoryProducts.filter(matchesSearch).length
-  };
-  for (const h of __ds_scope.Highlights) hlCounts[h.key] = __ds_scope.InventoryProducts.filter(p => matchesSearch(p) && h.match(p)).length;
-
-  // Facet counts reflect the OTHER active facets + highlight (standard faceted search).
-  const counts = {};
-  for (const {
-    key
-  } of facets) {
-    counts[key] = {};
-    for (const p of pool) {
-      if (matchesSearch(p) && hlMatch(p) && matchesFacets(p, key)) counts[key][p[key]] = (counts[key][p[key]] || 0) + 1;
-    }
-  }
-  const maxPage = Math.max(0, Math.ceil(filtered.length / perPage) - 1);
-  const safePage = Math.min(page, maxPage);
-  const visible = filtered.slice(safePage * perPage, safePage * perPage + perPage);
-  const activeFilterCount = (highlight ? 1 : 0) + facets.reduce((n, {
-    key
-  }) => n + sizeOf(key), 0);
-  const anyFilter = q.trim() !== '' || !!highlight || facets.some(({
-    key
-  }) => sizeOf(key) > 0);
-  const isAllDepts = activeDepts.length === __ds_scope.Departments.length;
-  const copy = bandCopy(highlight);
-
-  // Mouse drag-to-scroll for the department pill bar (touch swipe is native).
-  const deptsRef = React.useRef(null);
-  const deptDrag = React.useRef({
-    down: false,
-    startX: 0,
-    startLeft: 0,
-    moved: false
-  });
-  const onDeptDown = e => {
-    const el = deptsRef.current;
-    if (!el) return;
-    deptDrag.current = {
-      down: true,
-      startX: e.clientX,
-      startLeft: el.scrollLeft,
-      moved: false
-    };
-    el.setPointerCapture && el.setPointerCapture(e.pointerId);
-  };
-  const onDeptMove = e => {
-    const el = deptsRef.current;
-    if (!el || !deptDrag.current.down) return;
-    const dx = e.clientX - deptDrag.current.startX;
-    if (Math.abs(dx) > 3) deptDrag.current.moved = true;
-    el.scrollLeft = deptDrag.current.startLeft - dx;
-  };
-  const onDeptUp = () => {
-    deptDrag.current.down = false;
-  };
-  const onDeptClickCapture = e => {
-    if (deptDrag.current.moved) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
-  };
-  const scopeLabel = activeDepts.length === 0 ? 'no department selected' : activeDepts.length === 1 ? 'in ' + activeDepts[0] : isAllDepts ? 'across all departments' : 'across ' + activeDepts.length + ' departments';
-  return /*#__PURE__*/React.createElement("div", {
-    className: "fs-body",
-    "data-screen-label": "Live Inventory"
-  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
-    logo: assetBase + '/images/logo-fabstone.png',
-    homeHref: "./index.html",
-    activeItem: highlight ? 'Featured' : 'Live Inventory',
-    nav: [{
-      label: 'Live Inventory',
-      href: './live-inventory.html'
-    }, {
-      label: 'Featured',
-      href: './live-inventory.html?highlight=featured'
-    }, {
-      label: 'About Us',
-      href: './index.html'
-    }, {
-      label: 'Location',
-      href: './index.html'
-    }, {
-      label: 'Gallery',
-      href: './index.html'
-    }]
-  }), /*#__PURE__*/React.createElement("main", {
-    className: "fs-main"
-  }, /*#__PURE__*/React.createElement("section", {
-    className: "fs-inv-band fs-texture",
-    "data-screen-label": "Inventory band"
-  }, /*#__PURE__*/React.createElement("img", {
-    className: "fs-texture__img",
-    src: assetBase + '/images/stone-double-charge-640x480.png',
-    alt: "",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/React.createElement("span", {
-    className: "fs-texture__shade",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/React.createElement("div", {
-    className: "eyebrow"
-  }, copy.eyebrow), /*#__PURE__*/React.createElement("h1", null, /*#__PURE__*/React.createElement("em", {
-    className: "fs-accent"
-  }, copy.word), copy.rest), /*#__PURE__*/React.createElement("p", null, copy.lede), /*#__PURE__*/React.createElement(__ds_scope.SearchInput, {
-    value: q,
-    onChange: v => {
-      setQ(v);
-      setPage(0);
-    }
-  })), /*#__PURE__*/React.createElement("section", {
-    className: "fs-inv",
-    "data-screen-label": "Inventory listing"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv__depts",
-    role: "group",
-    "aria-label": "Departments",
-    ref: deptsRef,
-    onPointerDown: onDeptDown,
-    onPointerMove: onDeptMove,
-    onPointerUp: onDeptUp,
-    onPointerCancel: onDeptUp,
-    onClickCapture: onDeptClickCapture
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    className: 'fs-inv__dept fs-inv__dept--all' + (isAllDepts ? ' is-active' : ''),
-    "aria-pressed": isAllDepts,
-    onClick: allDepts
-  }, "All Departments"), __ds_scope.Departments.map(d => /*#__PURE__*/React.createElement("button", {
-    key: d,
-    type: "button",
-    "aria-pressed": depts.has(d),
-    className: 'fs-inv__dept' + (depts.has(d) ? ' is-active' : ''),
-    onClick: () => toggleDept(d)
-  }, d, /*#__PURE__*/React.createElement("span", {
-    className: "n"
-  }, deptCounts[d])))), /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv__inner"
-  }, /*#__PURE__*/React.createElement("aside", {
-    className: 'fs-inv__filters' + (filtersOpen ? ' is-open' : ''),
-    "aria-label": "Filters"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv__filters-head"
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    className: "fs-inv__filters-toggle",
-    "aria-expanded": filtersOpen,
-    onClick: () => setFiltersOpen(o => !o)
-  }, /*#__PURE__*/React.createElement("h2", null, "Filters"), anyFilter ? /*#__PURE__*/React.createElement("span", {
-    className: "fs-inv__filters-badge"
-  }, activeFilterCount) : null, anyFilter ? /*#__PURE__*/React.createElement("span", {
-    className: "fs-inv__clear",
-    role: "button",
-    tabIndex: 0,
-    onClick: e => {
-      e.stopPropagation();
-      clearAll();
-    },
-    onKeyDown: e => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        e.stopPropagation();
-        clearAll();
-      }
-    }
-  }, "Clear All") : null, /*#__PURE__*/React.createElement("span", {
-    className: "fs-inv__filters-chevron",
-    "aria-hidden": "true"
-  }))), /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv__filters-body"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-facet fs-facet--hl"
-  }, /*#__PURE__*/React.createElement("h3", null, "Highlights"), /*#__PURE__*/React.createElement("ul", {
-    className: "fs-facet__list"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    className: 'fs-hl-opt' + (!highlight ? ' is-active' : ''),
-    onClick: () => {
-      setHighlight(null);
-      allDepts();
-    }
-  }, "All Inventory", /*#__PURE__*/React.createElement("span", {
-    className: "count"
-  }, hlCounts.all))), __ds_scope.Highlights.map(h => /*#__PURE__*/React.createElement("li", {
-    key: h.key
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    className: 'fs-hl-opt fs-hl-opt--' + h.key + (highlight === h.key ? ' is-active' : ''),
-    onClick: () => pickHighlight(h.key)
-  }, h.label, /*#__PURE__*/React.createElement("span", {
-    className: "count"
-  }, hlCounts[h.key])))))), facets.length === 0 ? /*#__PURE__*/React.createElement("p", {
-    className: "fs-inv__filters-note"
-  }, activeDepts.length === 0 ? 'Select a department to filter.' : 'Pick a single department for detailed filters.') : facets.map(f => f.swatch ? /*#__PURE__*/React.createElement(SwatchFacet, {
-    key: f.key,
-    label: f.label,
-    options: f.options,
-    counts: counts[f.key],
-    selected: sel[f.key] || new Set(),
-    onToggle: opt => toggle(f.key, opt)
-  }) : /*#__PURE__*/React.createElement(CheckFacet, {
-    key: f.key,
-    label: f.label,
-    options: f.options,
-    counts: counts[f.key],
-    selected: sel[f.key] || new Set(),
-    onToggle: opt => toggle(f.key, opt)
-  })))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv__toolbar"
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "fs-inv__count",
-    "aria-live": "polite"
-  }, /*#__PURE__*/React.createElement("strong", null, filtered.length), " ", filtered.length === 1 ? 'product' : 'products', " ", scopeLabel), /*#__PURE__*/React.createElement("label", {
-    className: "fs-inv__perpage"
-  }, "Show", /*#__PURE__*/React.createElement("select", {
-    value: perPage,
-    onChange: e => {
-      setPerPage(Number(e.target.value));
-      setPage(0);
-    }
-  }, /*#__PURE__*/React.createElement("option", {
-    value: "9"
-  }, "9"), /*#__PURE__*/React.createElement("option", {
-    value: "18"
-  }, "18"), /*#__PURE__*/React.createElement("option", {
-    value: "36"
-  }, "36"), /*#__PURE__*/React.createElement("option", {
-    value: String(Math.max(1, pool.length))
-  }, "All")), "per page")), /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv__grid",
-    "aria-live": "polite"
-  }, visible.map(p => /*#__PURE__*/React.createElement(InvCard, {
-    key: p.id,
-    product: p,
-    assetBase: assetBase
-  })), visible.length === 0 ? /*#__PURE__*/React.createElement("p", {
-    className: "fs-inv__empty"
-  }, "No products match your filters. Try clearing a filter, or contact us \u2014 new shipments arrive weekly.") : null), maxPage > 0 ? /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv__pager"
-  }, /*#__PURE__*/React.createElement(__ds_scope.ArrowButton, {
-    direction: "prev",
-    disabled: safePage === 0,
-    onClick: () => setPage(safePage - 1)
-  }), /*#__PURE__*/React.createElement("span", {
-    className: "fs-inv__pager-label"
-  }, "Page ", safePage + 1, " of ", maxPage + 1), /*#__PURE__*/React.createElement(__ds_scope.ArrowButton, {
-    direction: "next",
-    disabled: safePage >= maxPage,
-    onClick: () => setPage(safePage + 1)
-  })) : null))), /*#__PURE__*/React.createElement(__ds_scope.CtaBanner, {
-    title: "Don't See What You Need?",
-    lede: "New containers arrive weekly \u2014 tell us what you're looking for.",
-    primaryLabel: "Contact Us",
-    secondaryLabel: ""
-  })), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
-    logo: assetBase + '/images/logo-fabstone.png'
-  }));
-}
-Object.assign(__ds_scope, { CardBadges, InvMedia, InventoryPage });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/InventoryPage.jsx", error: String((e && e.message) || e) }); }
-
-// ui_kits/website/LegalPage.jsx
-try { (() => {
-// Fabstone website UI kit — Legal pages (Privacy Policy, Terms of Use, Accessibility).
-// One component, three documents selected by `kind`. Plain informational copy —
-// a sensible baseline for the client's counsel to review and finalize, not legal advice.
-
-const UPDATED = 'June 16, 2026';
-const LEGAL_DOCS = {
-  privacy: {
-    eyebrow: 'Legal',
-    title: 'Privacy Policy',
-    lede: 'This Privacy Policy explains how Fabstone (\u201cFabstone,\u201d \u201cwe,\u201d \u201cus\u201d) collects, uses and protects information when you visit our website or our Melissa, TX showroom and slab yard.',
-    sections: [{
-      h: 'Information We Collect',
-      p: ['We collect information you provide directly \u2014 such as your name, email, phone number and project details \u2014 when you request a quote, reserve a slab, schedule a visit or contact us.', 'We also collect limited technical information automatically, including your browser type, device, and pages viewed, to help us understand how the site is used and to keep it working reliably.']
-    }, {
-      h: 'How We Use Your Information',
-      p: ['We use your information to respond to inquiries, prepare quotes, fulfill orders, coordinate showroom visits and deliveries, and improve our products and services.', 'With your consent, we may send occasional updates about new inventory, promotions or events. You can opt out of these messages at any time.']
-    }, {
-      h: 'How We Share Information',
-      p: ['We do not sell your personal information. We share it only with service providers who help us operate our business (for example, payment processors and delivery partners), and only as needed to provide the service you requested.', 'We may disclose information when required by law or to protect the rights, safety and property of Fabstone, our customers or others.']
-    }, {
-      h: 'Cookies & Analytics',
-      p: ['Our site uses cookies and similar technologies to remember your preferences and measure site performance. You can control cookies through your browser settings, though some features may not work without them.']
-    }, {
-      h: 'Data Retention & Security',
-      p: ['We keep your information only as long as needed for the purposes described here or as required by law, and we use reasonable safeguards to protect it. No method of transmission or storage is completely secure.']
-    }, {
-      h: 'Your Choices',
-      p: ['You may request access to, correction of, or deletion of your personal information, subject to applicable law. To make a request, contact us using the details below.']
-    }]
-  },
-  terms: {
-    eyebrow: 'Legal',
-    title: 'Terms of Use',
-    lede: 'These Terms of Use govern your access to and use of the Fabstone website. By using the site, you agree to these terms.',
-    sections: [{
-      h: 'Use of the Site',
-      p: ['You may use this site for lawful, personal and business purposes related to evaluating and purchasing our products. You agree not to misuse the site, interfere with its operation, or attempt to access it in any unauthorized way.']
-    }, {
-      h: 'Product Information & Availability',
-      p: ['Natural stone is a product of nature: color, veining, pattern and finish vary from slab to slab, and on-screen images are representations only. We encourage viewing the actual material in person before purchase.', 'Inventory shown as available is updated regularly but is not guaranteed until reserved and confirmed. Pricing, specifications and availability may change without notice.']
-    }, {
-      h: 'Quotes, Orders & Reservations',
-      p: ['Quotes are estimates and are valid for the period stated. An order or reservation is confirmed only when accepted by Fabstone in writing. Deposits and payment terms are described at the time of order.']
-    }, {
-      h: 'Intellectual Property',
-      p: ['All content on this site \u2014 including text, photography, logos and design \u2014 is owned by or licensed to Fabstone and may not be copied or reused without our written permission.']
-    }, {
-      h: 'Disclaimers & Limitation of Liability',
-      p: ['The site is provided \u201cas is\u201d without warranties of any kind. To the fullest extent permitted by law, Fabstone is not liable for any indirect or consequential damages arising from your use of the site.']
-    }, {
-      h: 'Governing Law',
-      p: ['These terms are governed by the laws of the State of Texas, without regard to its conflict-of-laws rules. Any disputes will be handled in the courts located in Collin County, Texas.']
-    }]
-  },
-  accessibility: {
-    eyebrow: 'Legal',
-    title: 'Accessibility Statement',
-    lede: 'Fabstone is committed to making our website usable for everyone, including people with disabilities.',
-    sections: [{
-      h: 'Our Commitment',
-      p: ['We strive to meet the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA and to continually improve the experience for all visitors. Accessibility is an ongoing effort, and we regularly review the site as we add new features and content.']
-    }, {
-      h: 'Measures We Take',
-      p: ['We aim for sufficient color contrast, keyboard-navigable controls, descriptive labels and alternative text for meaningful images, and a layout that adapts to different screen sizes and zoom levels.']
-    }, {
-      h: 'Known Limitations',
-      p: ['Some third-party content \u2014 such as embedded maps and video \u2014 may not be fully accessible. Where we rely on these services, we work to provide accessible alternatives or contact options.']
-    }, {
-      h: 'Need Help or Found an Issue?',
-      p: ['If you experience any difficulty using our website, or have a suggestion to improve accessibility, please reach out. We welcome your feedback and will do our best to provide the information or assistance you need.']
-    }]
-  }
-};
-function LegalPage({
-  assetBase = '../../assets',
-  kind = 'privacy'
-}) {
-  const doc = LEGAL_DOCS[kind] || LEGAL_DOCS.privacy;
-  return /*#__PURE__*/React.createElement("div", {
-    className: "fs-body",
-    "data-screen-label": doc.title
-  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
-    logo: assetBase + '/images/logo-fabstone.png',
-    homeHref: "./index.html",
-    nav: [{
-      label: 'Live Inventory',
-      href: './live-inventory.html'
-    }, {
-      label: 'Featured',
-      href: './live-inventory.html?highlight=featured'
-    }, {
-      label: 'About Us',
-      href: './index.html'
-    }, {
-      label: 'Location',
-      href: './index.html'
-    }, {
-      label: 'Gallery',
-      href: './index.html'
-    }]
-  }), /*#__PURE__*/React.createElement("main", {
-    className: "fs-main"
-  }, /*#__PURE__*/React.createElement("section", {
-    className: "fs-legal",
-    "data-screen-label": 'Legal — ' + doc.title
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-legal__inner"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "eyebrow"
-  }, doc.eyebrow), /*#__PURE__*/React.createElement("h1", {
-    className: "fs-legal__title"
-  }, doc.title), /*#__PURE__*/React.createElement("p", {
-    className: "fs-legal__updated"
-  }, "Last updated ", UPDATED), /*#__PURE__*/React.createElement("p", {
-    className: "fs-legal__lede"
-  }, doc.lede), doc.sections.map(s => /*#__PURE__*/React.createElement("section", {
-    className: "fs-legal__section",
-    key: s.h
-  }, /*#__PURE__*/React.createElement("h2", null, s.h), s.p.map((para, j) => /*#__PURE__*/React.createElement("p", {
-    key: j
-  }, para)))), /*#__PURE__*/React.createElement("div", {
-    className: "fs-legal__contact"
-  }, /*#__PURE__*/React.createElement("h2", null, "Contact Us"), /*#__PURE__*/React.createElement("p", null, "Fabstone \xB7 2514 Sam Rayburn Hwy, Melissa, TX 75454", /*#__PURE__*/React.createElement("br", null), "sales@fabsg.com \xB7 972-542-9678"))))), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
-    logo: assetBase + '/images/logo-fabstone.png'
-  }));
-}
-Object.assign(__ds_scope, { LegalPage });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/LegalPage.jsx", error: String((e && e.message) || e) }); }
-
-// ui_kits/website/ProductPage.jsx
-try { (() => {
-// Fabstone website UI kit — Product detail page.
-// Reached from the Live Inventory grid (?item=<id>). Adapts spec rows and
-// related items to the product's department. Content modeled on the
-// StoneProfits item page (photo, specs, yard location, related items).
-
-function PdpRelCard({
-  product,
-  assetBase
-}) {
-  return /*#__PURE__*/React.createElement("a", {
-    className: "fs-inv-card",
-    href: './product.html?item=' + product.id
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv-card__media"
-  }, /*#__PURE__*/React.createElement(__ds_scope.CardBadges, {
-    product: product
-  }), /*#__PURE__*/React.createElement(__ds_scope.InvMedia, {
-    product: product,
-    assetBase: assetBase
-  })), /*#__PURE__*/React.createElement("div", {
-    className: "fs-inv-card__body"
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "fs-inv-card__tag"
-  }, product.tag), /*#__PURE__*/React.createElement("h3", {
-    className: "fs-inv-card__title"
-  }, product.name), /*#__PURE__*/React.createElement("span", {
-    className: "fs-inv-card__meta"
-  }, product.meta)));
-}
-function ProductPage({
-  assetBase = '../../assets',
-  itemId
-}) {
-  const product = __ds_scope.InventoryProducts.find(p => p.id === itemId) || __ds_scope.InventoryProducts[0];
-  const related = __ds_scope.InventoryProducts.filter(p => p.id !== product.id && p.department === product.department).slice(0, 3);
-  const specs = (__ds_scope.DepartmentSpecs[product.department] || []).filter(([, key]) => product[key]);
-  // Mobile: similar slabs become a swipeable scroller (mouse drag + nav buttons).
-  const relRef = React.useRef(null);
-  const relDrag = React.useRef({
-    down: false,
-    startX: 0,
-    startLeft: 0,
-    moved: false
-  });
-  const onRelDown = e => {
-    const el = relRef.current;
-    if (!el) return;
-    relDrag.current = {
-      down: true,
-      startX: e.clientX,
-      startLeft: el.scrollLeft,
-      moved: false
-    };
-    el.setPointerCapture && el.setPointerCapture(e.pointerId);
-  };
-  const onRelMove = e => {
-    const el = relRef.current;
-    if (!el || !relDrag.current.down) return;
-    const dx = e.clientX - relDrag.current.startX;
-    if (Math.abs(dx) > 3) relDrag.current.moved = true;
-    el.scrollLeft = relDrag.current.startLeft - dx;
-  };
-  const onRelUp = () => {
-    relDrag.current.down = false;
-  };
-  const onRelClickCapture = e => {
-    if (relDrag.current.moved) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
-  };
-  const relPage = dir => {
-    const el = relRef.current;
-    if (!el) return;
-    el.scrollBy({
-      left: dir * el.clientWidth * 0.85,
-      behavior: 'smooth'
-    });
-  };
-  return /*#__PURE__*/React.createElement("div", {
-    className: "fs-body",
-    "data-screen-label": 'Product — ' + product.name
-  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
-    logo: assetBase + '/images/logo-fabstone.png',
-    homeHref: "./index.html",
-    activeItem: "Live Inventory",
-    nav: [{
-      label: 'Live Inventory',
-      href: './live-inventory.html'
-    }, {
-      label: 'Featured',
-      href: './live-inventory.html?highlight=featured'
-    }, {
-      label: 'About Us',
-      href: './index.html'
-    }, {
-      label: 'Location',
-      href: './index.html'
-    }, {
-      label: 'Gallery',
-      href: './index.html'
-    }]
-  }), /*#__PURE__*/React.createElement("main", {
-    className: "fs-main"
-  }, /*#__PURE__*/React.createElement("section", {
-    className: "fs-pdp",
-    "data-screen-label": "Product detail"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp__inner"
-  }, /*#__PURE__*/React.createElement("nav", {
-    className: "fs-pdp__crumbs",
-    "aria-label": "Breadcrumb"
-  }, /*#__PURE__*/React.createElement("a", {
-    href: "./index.html"
-  }, "Home"), /*#__PURE__*/React.createElement("span", {
-    className: "sep"
-  }, "/"), /*#__PURE__*/React.createElement("a", {
-    href: "./live-inventory.html"
-  }, "Live Inventory"), /*#__PURE__*/React.createElement("span", {
-    className: "sep"
-  }, "/"), /*#__PURE__*/React.createElement("span", {
-    className: "here"
-  }, product.name)), /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp__grid"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp__media"
-  }, /*#__PURE__*/React.createElement(__ds_scope.CardBadges, {
-    product: product
-  }), /*#__PURE__*/React.createElement(__ds_scope.InvMedia, {
-    product: product,
-    assetBase: assetBase,
-    cls: "fs-ph--lg"
-  })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("span", {
-    className: "fs-pdp__tag"
-  }, product.tag), /*#__PURE__*/React.createElement("h1", {
-    className: "fs-pdp__title"
-  }, product.name), /*#__PURE__*/React.createElement("p", {
-    className: "fs-pdp__sub"
-  }, product.meta), /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp__avail"
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "dot",
-    "aria-hidden": "true"
-  }), "In stock at our Melissa, TX showroom & slab yard"), /*#__PURE__*/React.createElement("dl", {
-    className: "fs-pdp__specs"
-  }, specs.map(([label, key]) => /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp__spec",
-    key: label
-  }, /*#__PURE__*/React.createElement("dt", null, label), /*#__PURE__*/React.createElement("dd", null, product[key])))), /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp__actions"
-  }, /*#__PURE__*/React.createElement(__ds_scope.Button, {
-    variant: "outline-dark",
-    href: "./live-inventory.html"
-  }, "Back to Inventory"), /*#__PURE__*/React.createElement(__ds_scope.Button, {
-    variant: "primary",
-    href: "#"
-  }, "Request a Quote")))))), /*#__PURE__*/React.createElement("section", {
-    className: "fs-pdp-loc",
-    "data-screen-label": "Availability and location"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp-loc__inner"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp-loc__card"
-  }, /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", {
-    className: "fs-accent"
-  }, "See It"), " in Person"), /*#__PURE__*/React.createElement("p", null, "Photos tell half the story \u2014 visit the showroom to see the full piece, veining and finish in natural light."), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("strong", null, "Fabstone Slab Yard"), /*#__PURE__*/React.createElement("br", null), "2514 Sam Rayburn Hwy", /*#__PURE__*/React.createElement("br", null), "Melissa, TX 75454"), /*#__PURE__*/React.createElement("p", null, "sales@fabsg.com \xB7 972-542-9678"), /*#__PURE__*/React.createElement(__ds_scope.Button, {
-    variant: "primary",
-    href: "#"
-  }, "Schedule a Visit")), /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp-loc__map"
-  }, /*#__PURE__*/React.createElement("iframe", {
-    src: "https://maps.google.com/maps?q=2514+Sam+Rayburn+Hwy,+Melissa,+TX+75454&z=16&output=embed",
-    title: "Fabstone \u2014 2514 Sam Rayburn Hwy, Melissa, TX 75454",
-    loading: "lazy"
-  })))), related.length ? /*#__PURE__*/React.createElement("section", {
-    className: "fs-pdp-rel",
-    "data-screen-label": "Related products"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp-rel__inner"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp-rel__head"
-  }, /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", {
-    className: "fs-accent"
-  }, "Similar"), " ", product.department === 'Slabs & Countertops' ? 'Slabs' : 'Products'), /*#__PURE__*/React.createElement("a", {
-    className: "fs-pdp-rel__all",
-    href: "./live-inventory.html"
-  }, "View All Inventory")), /*#__PURE__*/React.createElement("div", {
-    className: "fs-pdp-rel__grid",
-    ref: relRef,
-    onPointerDown: onRelDown,
-    onPointerMove: onRelMove,
-    onPointerUp: onRelUp,
-    onPointerCancel: onRelUp,
-    onClickCapture: onRelClickCapture
-  }, related.map(p => /*#__PURE__*/React.createElement(PdpRelCard, {
-    key: p.id,
-    product: p,
-    assetBase: assetBase
-  }))), related.length > 1 ? /*#__PURE__*/React.createElement("div", {
-    className: "fs-arrows fs-pdp-rel__arrows"
-  }, /*#__PURE__*/React.createElement(__ds_scope.ArrowButton, {
-    direction: "prev",
-    onClick: () => relPage(-1)
-  }), /*#__PURE__*/React.createElement(__ds_scope.ArrowButton, {
-    direction: "next",
-    onClick: () => relPage(1)
-  })) : null)) : null), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
-    logo: assetBase + '/images/logo-fabstone.png'
-  }));
-}
-Object.assign(__ds_scope, { ProductPage });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/ProductPage.jsx", error: String((e && e.message) || e) }); }
 
 // ui_kits/website/RepsDirectory.jsx
 try { (() => {
@@ -3484,70 +2320,6 @@ function RepsDirectory() {
 }
 Object.assign(__ds_scope, { REPS, RepsDirectory });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/RepsDirectory.jsx", error: String((e && e.message) || e) }); }
-
-// ui_kits/website/RepsPage.jsx
-try { (() => {
-// Fabstone website UI kit — Sales Reps page (reps.html).
-// Dedicated full roster, linked from the About page's "View All Reps" button
-// and the About Us dropdown. Reuses the shared RepsDirectory + site chrome.
-
-function RepsPage({
-  assetBase = '../../assets'
-}) {
-  const go = href => {
-    window.location.href = href;
-  };
-  const contact = () => {
-    window.location.href = 'mailto:sales@fabsg.com';
-  };
-  return /*#__PURE__*/React.createElement("div", {
-    className: "fs-body",
-    "data-screen-label": "Sales Reps"
-  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
-    logo: assetBase + '/images/logo-fabstone.png',
-    homeHref: "./index.html",
-    activeItem: "About Us",
-    onCta: contact,
-    nav: __ds_scope.SITE_NAV
-  }), /*#__PURE__*/React.createElement("main", {
-    className: "fs-main"
-  }, /*#__PURE__*/React.createElement("section", {
-    className: "fs-about-hero",
-    "data-screen-label": "Reps \u2014 Hero"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "fs-about-hero__inner"
-  }, /*#__PURE__*/React.createElement("nav", {
-    className: "fs-breadcrumb",
-    "aria-label": "Breadcrumb"
-  }, /*#__PURE__*/React.createElement("a", {
-    href: "./index.html"
-  }, "Home"), /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true"
-  }, "/"), /*#__PURE__*/React.createElement("a", {
-    href: "./about.html"
-  }, "About Us"), /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true"
-  }, "/"), /*#__PURE__*/React.createElement("span", {
-    "aria-current": "page"
-  }, "Sales Reps")), /*#__PURE__*/React.createElement("div", {
-    className: "eyebrow"
-  }, "Sales Team"), /*#__PURE__*/React.createElement("h1", null, "Find Your ", /*#__PURE__*/React.createElement("em", null, "Rep")), /*#__PURE__*/React.createElement("p", null, "Fabstone serves 15 states across the south-central U.S. Find the representative for your region and reach them directly."))), /*#__PURE__*/React.createElement("section", {
-    className: "fs-about-reps",
-    "data-screen-label": "Reps \u2014 Directory"
-  }, /*#__PURE__*/React.createElement(__ds_scope.RepsDirectory, null)), /*#__PURE__*/React.createElement(__ds_scope.CtaBanner, {
-    eyebrow: "Not Sure Who to Ask?",
-    title: "Talk to the Fabstone Team",
-    lede: "Reach our Melissa, TX headquarters and we'll connect you with the right rep for your project.",
-    primaryLabel: "Contact Us",
-    secondaryLabel: "Live Inventory",
-    onPrimary: contact,
-    onSecondary: () => go('./live-inventory.html')
-  })), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
-    logo: assetBase + '/images/logo-fabstone.png'
-  }));
-}
-Object.assign(__ds_scope, { RepsPage });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/RepsPage.jsx", error: String((e && e.message) || e) }); }
 
 // ui_kits/website/ios-frame.jsx
 try { (() => {
@@ -4213,6 +2985,1237 @@ Object.assign(window, {
   IOSKeyboard
 });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/ios-frame.jsx", error: String((e && e.message) || e) }); }
+
+// ui_kits/website/siteNav.jsx
+try { (() => {
+// Fabstone website UI kit — canonical primary navigation.
+// One source of truth so every page's header is identical and all links resolve.
+// All pages live in this folder, so relative ./*.html links work everywhere.
+const SITE_NAV = [{
+  label: 'Live Inventory',
+  href: './live-inventory.html'
+}, {
+  label: 'Featured',
+  href: './live-inventory.html?highlight=featured'
+}, {
+  label: 'About Us',
+  href: './about.html',
+  children: [{
+    label: 'Our Team',
+    href: './about.html#about-team'
+  }, {
+    label: 'Find a Rep',
+    href: './reps.html'
+  }]
+}, {
+  label: 'Location',
+  href: './index.html#location'
+}, {
+  label: 'Gallery',
+  href: './index.html#gallery'
+}];
+Object.assign(__ds_scope, { SITE_NAV });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/siteNav.jsx", error: String((e && e.message) || e) }); }
+
+// ui_kits/website/AboutPage.jsx
+try { (() => {
+// Fabstone website UI kit — About Us page.
+// Built from the home page's visual language (dark stone-texture bands, red
+// italic ems, copper/red eyebrows, the fs2-about split + frosted badge, the
+// shared red CTA banner). Copy is the client's real story: privately owned
+// since 2006, four-acre yard in Melissa TX, direct imports, 15 states served,
+// 150+ years of collective experience. Story / Gallery / CTA reuse existing
+// classes and components verbatim.
+
+// Re-exported so existing importers (RepsPage) keep working.
+
+const STATS = [{
+  num: '2006',
+  label: 'Privately owned & operated since'
+}, {
+  num: '4',
+  em: ' acres',
+  label: 'Slab yard in Melissa, Texas'
+}, {
+  num: '15',
+  label: 'Southern-central states served'
+}, {
+  num: '150',
+  em: '+',
+  label: 'Years of collective experience'
+}];
+const PROCESS = [{
+  n: '01',
+  h: 'Imported Direct',
+  p: 'We bring slabs in directly from quarries in Brazil, India, Europe and beyond — no middlemen, better stone, better pricing.'
+}, {
+  n: '02',
+  h: 'Hand-Selected',
+  p: 'Every block is chosen for quality and character, then brought to our four-acre yard in Melissa, Texas.'
+}, {
+  n: '03',
+  h: 'Live Inventory',
+  p: 'Each slab is photographed and tracked in real time, so what you reserve is exactly what arrives on site.'
+}, {
+  n: '04',
+  h: 'Fabrication & Install',
+  p: 'Long-term partners who excel in the trade cut, finish and install — backed by 150+ years of collective craft.'
+}];
+const TEAM = [{
+  role: 'Founder & Owner',
+  dept: 'Leadership'
+}, {
+  role: 'Sales Director',
+  dept: 'Sales'
+}, {
+  role: 'Operations Manager',
+  dept: 'Operations'
+}, {
+  role: 'Fabrication Lead',
+  dept: 'Production'
+}];
+function AboutPage({
+  assetBase = '../../assets'
+}) {
+  const go = href => {
+    window.location.href = href;
+  };
+  const contact = () => {
+    window.location.href = 'mailto:sales@fabsg.com';
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    className: "fs-body",
+    "data-screen-label": "About Us"
+  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
+    logo: assetBase + '/images/logo-fabstone.png',
+    homeHref: "./index.html",
+    activeItem: "About Us",
+    onCta: contact,
+    nav: __ds_scope.SITE_NAV
+  }), /*#__PURE__*/React.createElement("main", {
+    className: "fs-main"
+  }, /*#__PURE__*/React.createElement("section", {
+    className: "fs-about-hero",
+    "data-screen-label": "About \u2014 Hero"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-hero__inner"
+  }, /*#__PURE__*/React.createElement("nav", {
+    className: "fs-breadcrumb",
+    "aria-label": "Breadcrumb"
+  }, /*#__PURE__*/React.createElement("a", {
+    href: "./index.html"
+  }, "Home"), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true"
+  }, "/"), /*#__PURE__*/React.createElement("span", {
+    "aria-current": "page"
+  }, "About Us")), /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, "About Us"), /*#__PURE__*/React.createElement("h1", null, "Elevated by ", /*#__PURE__*/React.createElement("em", null, "Nature")), /*#__PURE__*/React.createElement("p", null, "Premium natural stone and quartz \u2014 imported direct, hand-selected and tracked in live inventory at our Melissa, Texas yard since 2006."))), /*#__PURE__*/React.createElement("section", {
+    className: "fs-about-story",
+    "data-screen-label": "About \u2014 Story"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-story__inner"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-story__media"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-story__frame"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: assetBase + '/images/about-why-fabstone-768x1024.jpg',
+    alt: "Fabstone slab yard in Melissa, Texas",
+    loading: "lazy"
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "fs-about-story__stamp"
+  }, /*#__PURE__*/React.createElement("small", null, "Est."), /*#__PURE__*/React.createElement("strong", null, "2006"))), /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-story__copy"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, "Our Story"), /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", {
+    className: "fs-accent"
+  }, "Family"), " Owned Since 2006"), /*#__PURE__*/React.createElement("p", {
+    className: "fs-about-story__lead"
+  }, "Four acres of hand-selected stone in Melissa, Texas \u2014 from builder-grade surfaces to semi-precious granite, marble and quartzite."), /*#__PURE__*/React.createElement("p", null, "Fabstone has been privately owned and operated since 2006, importing our collections direct from Brazil, India, Europe and beyond \u2014 no middlemen, no compromises."), /*#__PURE__*/React.createElement("p", null, "We currently serve 15 southern-central states alongside long-term partners who excel in the slab and fabrication industry, backed by more than 150 years of collective experience."), /*#__PURE__*/React.createElement("div", {
+    className: "fs2-about__actions"
+  }, /*#__PURE__*/React.createElement(__ds_scope.Button, {
+    variant: "primary",
+    href: "./live-inventory.html"
+  }, "Browse Live Inventory"), /*#__PURE__*/React.createElement(__ds_scope.Button, {
+    variant: "outline-dark",
+    onClick: contact
+  }, "Schedule a Visit"))))), /*#__PURE__*/React.createElement("section", {
+    className: "fs-about-stats",
+    "data-screen-label": "About \u2014 Stats"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-stats__inner"
+  }, STATS.map(s => /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-stat",
+    key: s.label
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "fs-about-stat__num"
+  }, s.num, s.em ? /*#__PURE__*/React.createElement("em", null, s.em) : null), /*#__PURE__*/React.createElement("p", {
+    className: "fs-about-stat__label"
+  }, s.label))))), /*#__PURE__*/React.createElement("section", {
+    className: "fs-about-process",
+    "data-screen-label": "About \u2014 How We Work"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-spaces__head"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, "Our Process"), /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", null, "How"), " We Work"), /*#__PURE__*/React.createElement("p", null, "From the quarry to your countertop, every slab moves through four deliberate steps.")), /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-process__inner"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-process__grid"
+  }, PROCESS.map(step => /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-step",
+    key: step.n
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "fs-about-step__num"
+  }, step.n), /*#__PURE__*/React.createElement("span", {
+    className: "fs-about-step__rule",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React.createElement("h3", null, step.h), /*#__PURE__*/React.createElement("p", null, step.p)))))), /*#__PURE__*/React.createElement("section", {
+    className: "fs-about-team",
+    id: "about-team",
+    "data-screen-label": "About \u2014 Team"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-spaces__head"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, "Our People"), /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", null, "The"), " Fabstone Team"), /*#__PURE__*/React.createElement("p", null, "The people who source, photograph and fabricate every Fabstone slab.")), /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-team__inner"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-team__grid"
+  }, TEAM.map(m => /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-member",
+    key: m.role
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-member__photo"
+  }, /*#__PURE__*/React.createElement("span", null, "Add headshot")), /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-member__body"
+  }, /*#__PURE__*/React.createElement("h3", null, m.role), /*#__PURE__*/React.createElement("p", null, m.dept))))), /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-team__cta"
+  }, /*#__PURE__*/React.createElement(__ds_scope.Button, {
+    variant: "primary",
+    href: "./reps.html"
+  }, "Find My Sales Rep")))), /*#__PURE__*/React.createElement(__ds_scope.GallerySection, {
+    assetBase: assetBase
+  }), /*#__PURE__*/React.createElement(__ds_scope.CtaBanner, {
+    eyebrow: "Visit Us",
+    title: "Schedule a Shopping Appointment",
+    lede: "Come hand-pick your slab at our Melissa, TX yard \u2014 or reserve online from live inventory.",
+    primaryLabel: "Contact Us",
+    secondaryLabel: "Live Inventory",
+    onPrimary: contact,
+    onSecondary: () => go('./live-inventory.html')
+  })), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
+    logo: assetBase + '/images/logo-fabstone.png'
+  }));
+}
+Object.assign(__ds_scope, { SITE_NAV: __ds_scope.SITE_NAV, AboutPage });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/AboutPage.jsx", error: String((e && e.message) || e) }); }
+
+// ui_kits/website/HomePage.jsx
+try { (() => {
+// Fabstone website UI kit — Home page (recreation of /home2/).
+// Per client direction: the "SOCI + Elements" platform section is omitted
+// and lorem-ipsum copy is replaced with realistic stone-industry copy.
+
+function HomePage({
+  assetBase = '../../assets'
+}) {
+  const go = href => {
+    window.location.href = href;
+  };
+  const contact = () => {
+    window.location.href = 'mailto:sales@fabsg.com';
+  };
+
+  // Scroll to #location / #gallery when arriving via a hash link from another page.
+  React.useEffect(() => {
+    const scrollToHash = () => {
+      const id = window.location.hash.slice(1);
+      if (!id) return;
+      const el = document.getElementById(id);
+      if (!el) return;
+      const y = el.getBoundingClientRect().top + window.pageYOffset - 80;
+      window.scrollTo({
+        top: y,
+        behavior: 'smooth'
+      });
+    };
+    const t = setTimeout(scrollToHash, 350);
+    window.addEventListener('hashchange', scrollToHash);
+    return () => {
+      clearTimeout(t);
+      window.removeEventListener('hashchange', scrollToHash);
+    };
+  }, []);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "fs-body",
+    "data-screen-label": "Home"
+  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
+    logo: assetBase + '/images/logo-fabstone.png',
+    homeHref: "./index.html",
+    onCta: contact,
+    nav: __ds_scope.SITE_NAV
+  }), /*#__PURE__*/React.createElement("main", {
+    className: "fs-main"
+  }, /*#__PURE__*/React.createElement(__ds_scope.HomeHero, {
+    poster: assetBase + '/images/hero-poster-scaled.png'
+  }), /*#__PURE__*/React.createElement(__ds_scope.TrustStrip, {
+    assetBase: assetBase
+  }), /*#__PURE__*/React.createElement(__ds_scope.FeaturedInventory, {
+    assetBase: assetBase
+  }), /*#__PURE__*/React.createElement(__ds_scope.WhyFabstone, {
+    assetBase: assetBase,
+    onPrimary: () => go('./live-inventory.html'),
+    onSecondary: () => go('./about.html')
+  }), /*#__PURE__*/React.createElement(__ds_scope.LocationSection, {
+    assetBase: assetBase,
+    onCta: contact
+  }), /*#__PURE__*/React.createElement(__ds_scope.ExclusiveProducts, {
+    assetBase: assetBase,
+    onExplore: () => go('./live-inventory.html?highlight=exclusive')
+  }), /*#__PURE__*/React.createElement(__ds_scope.GallerySection, {
+    assetBase: assetBase
+  }), /*#__PURE__*/React.createElement(__ds_scope.CtaBanner, {
+    onPrimary: contact,
+    onSecondary: () => go('./live-inventory.html')
+  })), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
+    logo: assetBase + '/images/logo-fabstone.png'
+  }));
+}
+Object.assign(__ds_scope, { HomePage });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/HomePage.jsx", error: String((e && e.message) || e) }); }
+
+// ui_kits/website/InventoryPage.jsx
+try { (() => {
+// Fabstone website UI kit — Live Inventory page.
+// Department-first faceted browser modeled on fabstone.stoneprofitsweb.com:
+// 5 departments (Slabs & Countertops, Tile, Sinks, Faucets & Fixtures,
+// Shop & Supplies), an ADAPTIVE sidebar whose facets change per department,
+// color/finish swatches, search, per-page selector, pagination.
+//
+// Merchandising layer: cross-department Highlights (Featured / Exclusive / On
+// Sale) shown as a top filter row + card badges. Departments are MULTI-SELECT,
+// so a Highlight (e.g. Featured) can span the whole catalog. Deep-linkable via
+// ?highlight=featured|exclusive|sale and ?dept=<Department name>.
+
+function dotStyle(name) {
+  const hex = __ds_scope.SwatchHex[name];
+  if (hex === 'multi') {
+    return {
+      backgroundImage: 'conic-gradient(#8C4A35, #B8924A, #55634C, #3F5E78, #6B4A33, #8C4A35)'
+    };
+  }
+  return {
+    background: hex || '#cfcabf'
+  };
+}
+
+// Card corner badges — literal flags set on the product (exclusive > featured > sale).
+function CardBadges({
+  product
+}) {
+  const keys = ['exclusive', 'featured', 'sale'].filter(k => product[k]);
+  if (!keys.length) return null;
+  return /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv-card__badges"
+  }, keys.map(k => /*#__PURE__*/React.createElement("span", {
+    key: k,
+    className: 'fs-badge ' + __ds_scope.BadgeMeta[k].cls
+  }, __ds_scope.BadgeMeta[k].label)));
+}
+
+// Shared media: real photo, or a tinted "image coming soon" placeholder.
+function InvMedia({
+  product,
+  assetBase,
+  cls
+}) {
+  const src = product.imgUrl || (product.img ? assetBase + '/images/' + product.img : null);
+  if (src) return /*#__PURE__*/React.createElement("img", {
+    src: src,
+    alt: product.name,
+    loading: "lazy"
+  });
+  return /*#__PURE__*/React.createElement("div", {
+    className: 'fs-ph ' + (cls || ''),
+    style: dotStyle(product.color)
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "fs-ph__scrim",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "fs-ph__tag"
+  }, product.tag), /*#__PURE__*/React.createElement("span", {
+    className: "fs-ph__note"
+  }, "Image coming soon"));
+}
+function CheckFacet({
+  label,
+  options,
+  counts,
+  selected,
+  onToggle
+}) {
+  return /*#__PURE__*/React.createElement("div", {
+    className: "fs-facet"
+  }, /*#__PURE__*/React.createElement("h3", null, label), /*#__PURE__*/React.createElement("ul", {
+    className: "fs-facet__list"
+  }, options.map(opt => {
+    const n = counts[opt] || 0;
+    const on = selected.has(opt);
+    return /*#__PURE__*/React.createElement("li", {
+      key: opt
+    }, /*#__PURE__*/React.createElement("label", {
+      className: 'fs-facet__opt' + (!n && !on ? ' is-empty' : '')
+    }, /*#__PURE__*/React.createElement("input", {
+      type: "checkbox",
+      checked: on,
+      disabled: !n && !on,
+      onChange: () => onToggle(opt)
+    }), /*#__PURE__*/React.createElement("span", null, opt), /*#__PURE__*/React.createElement("span", {
+      className: "count"
+    }, n)));
+  })));
+}
+function SwatchFacet({
+  label,
+  options,
+  counts,
+  selected,
+  onToggle
+}) {
+  return /*#__PURE__*/React.createElement("div", {
+    className: "fs-facet"
+  }, /*#__PURE__*/React.createElement("h3", null, label), /*#__PURE__*/React.createElement("ul", {
+    className: "fs-facet__list"
+  }, options.map(opt => {
+    const n = counts[opt] || 0;
+    const on = selected.has(opt);
+    return /*#__PURE__*/React.createElement("li", {
+      key: opt
+    }, /*#__PURE__*/React.createElement("button", {
+      type: "button",
+      className: 'fs-facet__swatch' + (on ? ' is-active' : ''),
+      disabled: !n && !on,
+      onClick: () => onToggle(opt)
+    }, /*#__PURE__*/React.createElement("span", {
+      className: "fs-facet__dot",
+      style: dotStyle(opt)
+    }), /*#__PURE__*/React.createElement("span", null, opt), /*#__PURE__*/React.createElement("span", {
+      className: "count"
+    }, n)));
+  })));
+}
+function InvCard({
+  product,
+  assetBase
+}) {
+  return /*#__PURE__*/React.createElement("a", {
+    className: "fs-inv-card",
+    href: './product.html?item=' + product.id
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv-card__media"
+  }, /*#__PURE__*/React.createElement(CardBadges, {
+    product: product
+  }), /*#__PURE__*/React.createElement(InvMedia, {
+    product: product,
+    assetBase: assetBase
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv-card__body"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "fs-inv-card__tag"
+  }, product.tag), /*#__PURE__*/React.createElement("h3", {
+    className: "fs-inv-card__title"
+  }, product.name), /*#__PURE__*/React.createElement("span", {
+    className: "fs-inv-card__meta"
+  }, product.meta)));
+}
+
+// Adaptive facets for the selected department(s):
+//  • exactly 1 department → that department's full adaptive facet list (unchanged).
+//  • 2+ departments     → a compact UNIVERSAL set (Color/Finish, Material, Brand)
+//    built from the values actually present, so it never shows an empty facet.
+const UNIVERSAL_FACETS = [{
+  key: 'color',
+  label: 'Color / Finish',
+  swatch: true
+}, {
+  key: 'material',
+  label: 'Material'
+}, {
+  key: 'brand',
+  label: 'Brand'
+}];
+function buildFacets(deptList) {
+  if (deptList.length === 1) return __ds_scope.DepartmentFacets[deptList[0]];
+  if (deptList.length === 0) return [];
+  const pool = __ds_scope.InventoryProducts.filter(p => deptList.includes(p.department));
+  const out = [];
+  for (const u of UNIVERSAL_FACETS) {
+    const order = [];
+    const seen = new Set();
+    for (const d of deptList) {
+      for (const f of __ds_scope.DepartmentFacets[d]) {
+        if (f.key === u.key) for (const o of f.options) if (!seen.has(o)) {
+          seen.add(o);
+          order.push(o);
+        }
+      }
+    }
+    for (const p of pool) {
+      const v = p[u.key];
+      if (v && !seen.has(v)) {
+        seen.add(v);
+        order.push(v);
+      }
+    }
+    const present = order.filter(o => pool.some(p => p[u.key] === o));
+    if (present.length) out.push({
+      ...u,
+      options: present
+    });
+  }
+  return out;
+}
+
+// Contextual band copy per active highlight.
+function bandCopy(highlight) {
+  switch (highlight) {
+    case 'featured':
+      return {
+        eyebrow: 'Highlights',
+        word: 'Featured',
+        rest: ' Inventory',
+        lede: 'Popular picks and current deals — hand-selected from across every department.'
+      };
+    case 'exclusive':
+      return {
+        eyebrow: 'Fabstone Originals',
+        word: 'Exclusive',
+        rest: ' Collection',
+        lede: 'Limited-run, Fabstone-branded surfaces and supplies you won\u2019t find anywhere else.'
+      };
+    case 'sale':
+      return {
+        eyebrow: 'Limited Time',
+        word: 'On Sale',
+        rest: ' Now',
+        lede: 'Current price drops across the yard \u2014 reserve before they\u2019re gone.'
+      };
+    default:
+      return {
+        eyebrow: 'Browse the Catalog',
+        word: 'Live',
+        rest: ' Inventory',
+        lede: 'Every slab, sink, tile and fixture in our Melissa, TX yard \u2014 photographed, measured and updated in real time.'
+      };
+  }
+}
+function InventoryPage({
+  assetBase = '../../assets',
+  initialHighlight = null,
+  initialDept = null
+}) {
+  const [highlight, setHighlight] = React.useState(initialHighlight);
+  const [depts, setDepts] = React.useState(() => new Set(initialHighlight ? __ds_scope.Departments : [initialDept || __ds_scope.Departments[0]]));
+  const [q, setQ] = React.useState('');
+  const [sel, setSel] = React.useState({});
+  const [perPage, setPerPage] = React.useState(9);
+  const [page, setPage] = React.useState(0);
+  const [filtersOpen, setFiltersOpen] = React.useState(false); // collapsed on mobile; CSS keeps it open on desktop
+
+  // Deep-link: ?highlight=featured|exclusive|sale and ?dept=<name>
+  React.useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const hl = params.get('highlight');
+    const dp = params.get('dept');
+    const qq = params.get('q');
+    if (qq) setQ(qq);
+    if (hl && __ds_scope.Highlights.some(h => h.key === hl)) {
+      setHighlight(hl);
+      setDepts(new Set(__ds_scope.Departments));
+    } else if (dp && __ds_scope.Departments.includes(dp)) {
+      setDepts(new Set([dp]));
+    }
+  }, []);
+  const activeDepts = __ds_scope.Departments.filter(d => depts.has(d));
+  const facets = buildFacets(activeDepts);
+  const sizeOf = key => sel[key] ? sel[key].size : 0;
+  const hlMatch = p => highlight ? __ds_scope.Highlights.find(h => h.key === highlight).match(p) : true;
+  const toggleDept = d => {
+    setSel({});
+    setPage(0);
+    setDepts(prev => {
+      const next = new Set(prev);
+      next.has(d) ? next.delete(d) : next.add(d);
+      return next;
+    });
+  };
+  const allDepts = () => {
+    setDepts(new Set(__ds_scope.Departments));
+    setSel({});
+    setPage(0);
+  };
+  const pickHighlight = key => {
+    setHighlight(key);
+    setDepts(new Set(__ds_scope.Departments));
+    setSel({});
+    setPage(0);
+  };
+  const toggle = (key, opt) => {
+    setSel(prev => {
+      const next = new Set(prev[key] || []);
+      next.has(opt) ? next.delete(opt) : next.add(opt);
+      return {
+        ...prev,
+        [key]: next
+      };
+    });
+    setPage(0);
+  };
+  const clearAll = () => {
+    setSel({});
+    setQ('');
+    setHighlight(null);
+    setPage(0);
+  };
+  const matchesSearch = p => q.trim() === '' || (p.name + ' ' + (p.tag || '') + ' ' + (p.material || '') + ' ' + (p.brand || '') + ' ' + (p.color || '')).toLowerCase().includes(q.trim().toLowerCase());
+  const matchesFacets = (p, skipKey) => facets.every(({
+    key
+  }) => key === skipKey || sizeOf(key) === 0 || sel[key] && sel[key].has(p[key]));
+  const pool = __ds_scope.InventoryProducts.filter(p => depts.has(p.department));
+  const filtered = pool.filter(p => matchesFacets(p, null) && matchesSearch(p) && hlMatch(p));
+
+  // Department pill counts respect search + highlight (ignore dept/facet selection).
+  const deptCounts = {};
+  for (const d of __ds_scope.Departments) deptCounts[d] = __ds_scope.InventoryProducts.filter(p => p.department === d && matchesSearch(p) && hlMatch(p)).length;
+
+  // Highlight chip counts respect search only (across the whole catalog).
+  const hlCounts = {
+    all: __ds_scope.InventoryProducts.filter(matchesSearch).length
+  };
+  for (const h of __ds_scope.Highlights) hlCounts[h.key] = __ds_scope.InventoryProducts.filter(p => matchesSearch(p) && h.match(p)).length;
+
+  // Facet counts reflect the OTHER active facets + highlight (standard faceted search).
+  const counts = {};
+  for (const {
+    key
+  } of facets) {
+    counts[key] = {};
+    for (const p of pool) {
+      if (matchesSearch(p) && hlMatch(p) && matchesFacets(p, key)) counts[key][p[key]] = (counts[key][p[key]] || 0) + 1;
+    }
+  }
+  const maxPage = Math.max(0, Math.ceil(filtered.length / perPage) - 1);
+  const safePage = Math.min(page, maxPage);
+  const visible = filtered.slice(safePage * perPage, safePage * perPage + perPage);
+  const activeFilterCount = (highlight ? 1 : 0) + facets.reduce((n, {
+    key
+  }) => n + sizeOf(key), 0);
+  const anyFilter = q.trim() !== '' || !!highlight || facets.some(({
+    key
+  }) => sizeOf(key) > 0);
+  const isAllDepts = activeDepts.length === __ds_scope.Departments.length;
+  const copy = bandCopy(highlight);
+
+  // Mouse drag-to-scroll for the department pill bar (touch swipe is native).
+  const deptsRef = React.useRef(null);
+  const deptDrag = React.useRef({
+    down: false,
+    startX: 0,
+    startLeft: 0,
+    moved: false
+  });
+  const onDeptDown = e => {
+    const el = deptsRef.current;
+    if (!el) return;
+    deptDrag.current = {
+      down: true,
+      startX: e.clientX,
+      startLeft: el.scrollLeft,
+      moved: false
+    };
+    el.setPointerCapture && el.setPointerCapture(e.pointerId);
+  };
+  const onDeptMove = e => {
+    const el = deptsRef.current;
+    if (!el || !deptDrag.current.down) return;
+    const dx = e.clientX - deptDrag.current.startX;
+    if (Math.abs(dx) > 3) deptDrag.current.moved = true;
+    el.scrollLeft = deptDrag.current.startLeft - dx;
+  };
+  const onDeptUp = () => {
+    deptDrag.current.down = false;
+  };
+  const onDeptClickCapture = e => {
+    if (deptDrag.current.moved) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  };
+  const scopeLabel = activeDepts.length === 0 ? 'no department selected' : activeDepts.length === 1 ? 'in ' + activeDepts[0] : isAllDepts ? 'across all departments' : 'across ' + activeDepts.length + ' departments';
+  return /*#__PURE__*/React.createElement("div", {
+    className: "fs-body",
+    "data-screen-label": "Live Inventory"
+  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
+    logo: assetBase + '/images/logo-fabstone.png',
+    homeHref: "./index.html",
+    activeItem: highlight ? 'Featured' : 'Live Inventory',
+    nav: __ds_scope.SITE_NAV
+  }), /*#__PURE__*/React.createElement("main", {
+    className: "fs-main"
+  }, /*#__PURE__*/React.createElement("section", {
+    className: "fs-inv-band fs-texture",
+    "data-screen-label": "Inventory band"
+  }, /*#__PURE__*/React.createElement("img", {
+    className: "fs-texture__img",
+    src: assetBase + '/images/stone-double-charge-640x480.png',
+    alt: "",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "fs-texture__shade",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, copy.eyebrow), /*#__PURE__*/React.createElement("h1", null, /*#__PURE__*/React.createElement("em", {
+    className: "fs-accent"
+  }, copy.word), copy.rest), /*#__PURE__*/React.createElement("p", null, copy.lede), /*#__PURE__*/React.createElement(__ds_scope.SearchInput, {
+    value: q,
+    onChange: v => {
+      setQ(v);
+      setPage(0);
+    }
+  })), /*#__PURE__*/React.createElement("section", {
+    className: "fs-inv",
+    "data-screen-label": "Inventory listing"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv__depts",
+    role: "group",
+    "aria-label": "Departments",
+    ref: deptsRef,
+    onPointerDown: onDeptDown,
+    onPointerMove: onDeptMove,
+    onPointerUp: onDeptUp,
+    onPointerCancel: onDeptUp,
+    onClickCapture: onDeptClickCapture
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: 'fs-inv__dept fs-inv__dept--all' + (isAllDepts ? ' is-active' : ''),
+    "aria-pressed": isAllDepts,
+    onClick: allDepts
+  }, "All Departments"), __ds_scope.Departments.map(d => /*#__PURE__*/React.createElement("button", {
+    key: d,
+    type: "button",
+    "aria-pressed": depts.has(d),
+    className: 'fs-inv__dept' + (depts.has(d) ? ' is-active' : ''),
+    onClick: () => toggleDept(d)
+  }, d, /*#__PURE__*/React.createElement("span", {
+    className: "n"
+  }, deptCounts[d])))), /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv__inner"
+  }, /*#__PURE__*/React.createElement("aside", {
+    className: 'fs-inv__filters' + (filtersOpen ? ' is-open' : ''),
+    "aria-label": "Filters"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv__filters-head"
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: "fs-inv__filters-toggle",
+    "aria-expanded": filtersOpen,
+    onClick: () => setFiltersOpen(o => !o)
+  }, /*#__PURE__*/React.createElement("h2", null, "Filters"), anyFilter ? /*#__PURE__*/React.createElement("span", {
+    className: "fs-inv__filters-badge"
+  }, activeFilterCount) : null, anyFilter ? /*#__PURE__*/React.createElement("span", {
+    className: "fs-inv__clear",
+    role: "button",
+    tabIndex: 0,
+    onClick: e => {
+      e.stopPropagation();
+      clearAll();
+    },
+    onKeyDown: e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        e.stopPropagation();
+        clearAll();
+      }
+    }
+  }, "Clear All") : null, /*#__PURE__*/React.createElement("span", {
+    className: "fs-inv__filters-chevron",
+    "aria-hidden": "true"
+  }))), /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv__filters-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-facet fs-facet--hl"
+  }, /*#__PURE__*/React.createElement("h3", null, "Highlights"), /*#__PURE__*/React.createElement("ul", {
+    className: "fs-facet__list"
+  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: 'fs-hl-opt' + (!highlight ? ' is-active' : ''),
+    onClick: () => {
+      setHighlight(null);
+      allDepts();
+    }
+  }, "All Inventory", /*#__PURE__*/React.createElement("span", {
+    className: "count"
+  }, hlCounts.all))), __ds_scope.Highlights.map(h => /*#__PURE__*/React.createElement("li", {
+    key: h.key
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: 'fs-hl-opt fs-hl-opt--' + h.key + (highlight === h.key ? ' is-active' : ''),
+    onClick: () => pickHighlight(h.key)
+  }, h.label, /*#__PURE__*/React.createElement("span", {
+    className: "count"
+  }, hlCounts[h.key])))))), facets.length === 0 ? /*#__PURE__*/React.createElement("p", {
+    className: "fs-inv__filters-note"
+  }, activeDepts.length === 0 ? 'Select a department to filter.' : 'Pick a single department for detailed filters.') : facets.map(f => f.swatch ? /*#__PURE__*/React.createElement(SwatchFacet, {
+    key: f.key,
+    label: f.label,
+    options: f.options,
+    counts: counts[f.key],
+    selected: sel[f.key] || new Set(),
+    onToggle: opt => toggle(f.key, opt)
+  }) : /*#__PURE__*/React.createElement(CheckFacet, {
+    key: f.key,
+    label: f.label,
+    options: f.options,
+    counts: counts[f.key],
+    selected: sel[f.key] || new Set(),
+    onToggle: opt => toggle(f.key, opt)
+  })))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv__toolbar"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "fs-inv__count",
+    "aria-live": "polite"
+  }, /*#__PURE__*/React.createElement("strong", null, filtered.length), " ", filtered.length === 1 ? 'product' : 'products', " ", scopeLabel), /*#__PURE__*/React.createElement("label", {
+    className: "fs-inv__perpage"
+  }, "Show", /*#__PURE__*/React.createElement("select", {
+    value: perPage,
+    onChange: e => {
+      setPerPage(Number(e.target.value));
+      setPage(0);
+    }
+  }, /*#__PURE__*/React.createElement("option", {
+    value: "9"
+  }, "9"), /*#__PURE__*/React.createElement("option", {
+    value: "18"
+  }, "18"), /*#__PURE__*/React.createElement("option", {
+    value: "36"
+  }, "36"), /*#__PURE__*/React.createElement("option", {
+    value: String(Math.max(1, pool.length))
+  }, "All")), "per page")), /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv__grid",
+    "aria-live": "polite"
+  }, visible.map(p => /*#__PURE__*/React.createElement(InvCard, {
+    key: p.id,
+    product: p,
+    assetBase: assetBase
+  })), visible.length === 0 ? /*#__PURE__*/React.createElement("p", {
+    className: "fs-inv__empty"
+  }, "No products match your filters. Try clearing a filter, or contact us \u2014 new shipments arrive weekly.") : null), maxPage > 0 ? /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv__pager"
+  }, /*#__PURE__*/React.createElement(__ds_scope.ArrowButton, {
+    direction: "prev",
+    disabled: safePage === 0,
+    onClick: () => setPage(safePage - 1)
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "fs-inv__pager-label"
+  }, "Page ", safePage + 1, " of ", maxPage + 1), /*#__PURE__*/React.createElement(__ds_scope.ArrowButton, {
+    direction: "next",
+    disabled: safePage >= maxPage,
+    onClick: () => setPage(safePage + 1)
+  })) : null))), /*#__PURE__*/React.createElement(__ds_scope.CtaBanner, {
+    title: "Don't See What You Need?",
+    lede: "New containers arrive weekly \u2014 tell us what you're looking for.",
+    primaryLabel: "Contact Us",
+    secondaryLabel: ""
+  })), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
+    logo: assetBase + '/images/logo-fabstone.png'
+  }));
+}
+Object.assign(__ds_scope, { CardBadges, InvMedia, InventoryPage });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/InventoryPage.jsx", error: String((e && e.message) || e) }); }
+
+// ui_kits/website/LegalPage.jsx
+try { (() => {
+// Fabstone website UI kit — Legal pages (Privacy Policy, Terms of Use, Accessibility).
+// One component, three documents selected by `kind`. Plain informational copy —
+// a sensible baseline for the client's counsel to review and finalize, not legal advice.
+
+const UPDATED = 'June 16, 2026';
+const LEGAL_DOCS = {
+  privacy: {
+    eyebrow: 'Legal',
+    title: 'Privacy Policy',
+    lede: 'This Privacy Policy explains how Fabstone (\u201cFabstone,\u201d \u201cwe,\u201d \u201cus\u201d) collects, uses and protects information when you visit our website or our Melissa, TX showroom and slab yard.',
+    sections: [{
+      h: 'Information We Collect',
+      p: ['We collect information you provide directly \u2014 such as your name, email, phone number and project details \u2014 when you request a quote, reserve a slab, schedule a visit or contact us.', 'We also collect limited technical information automatically, including your browser type, device, and pages viewed, to help us understand how the site is used and to keep it working reliably.']
+    }, {
+      h: 'How We Use Your Information',
+      p: ['We use your information to respond to inquiries, prepare quotes, fulfill orders, coordinate showroom visits and deliveries, and improve our products and services.', 'With your consent, we may send occasional updates about new inventory, promotions or events. You can opt out of these messages at any time.']
+    }, {
+      h: 'How We Share Information',
+      p: ['We do not sell your personal information. We share it only with service providers who help us operate our business (for example, payment processors and delivery partners), and only as needed to provide the service you requested.', 'We may disclose information when required by law or to protect the rights, safety and property of Fabstone, our customers or others.']
+    }, {
+      h: 'Cookies & Analytics',
+      p: ['Our site uses cookies and similar technologies to remember your preferences and measure site performance. You can control cookies through your browser settings, though some features may not work without them.']
+    }, {
+      h: 'Data Retention & Security',
+      p: ['We keep your information only as long as needed for the purposes described here or as required by law, and we use reasonable safeguards to protect it. No method of transmission or storage is completely secure.']
+    }, {
+      h: 'Your Choices',
+      p: ['You may request access to, correction of, or deletion of your personal information, subject to applicable law. To make a request, contact us using the details below.']
+    }]
+  },
+  terms: {
+    eyebrow: 'Legal',
+    title: 'Terms of Use',
+    lede: 'These Terms of Use govern your access to and use of the Fabstone website. By using the site, you agree to these terms.',
+    sections: [{
+      h: 'Use of the Site',
+      p: ['You may use this site for lawful, personal and business purposes related to evaluating and purchasing our products. You agree not to misuse the site, interfere with its operation, or attempt to access it in any unauthorized way.']
+    }, {
+      h: 'Product Information & Availability',
+      p: ['Natural stone is a product of nature: color, veining, pattern and finish vary from slab to slab, and on-screen images are representations only. We encourage viewing the actual material in person before purchase.', 'Inventory shown as available is updated regularly but is not guaranteed until reserved and confirmed. Pricing, specifications and availability may change without notice.']
+    }, {
+      h: 'Quotes, Orders & Reservations',
+      p: ['Quotes are estimates and are valid for the period stated. An order or reservation is confirmed only when accepted by Fabstone in writing. Deposits and payment terms are described at the time of order.']
+    }, {
+      h: 'Intellectual Property',
+      p: ['All content on this site \u2014 including text, photography, logos and design \u2014 is owned by or licensed to Fabstone and may not be copied or reused without our written permission.']
+    }, {
+      h: 'Disclaimers & Limitation of Liability',
+      p: ['The site is provided \u201cas is\u201d without warranties of any kind. To the fullest extent permitted by law, Fabstone is not liable for any indirect or consequential damages arising from your use of the site.']
+    }, {
+      h: 'Governing Law',
+      p: ['These terms are governed by the laws of the State of Texas, without regard to its conflict-of-laws rules. Any disputes will be handled in the courts located in Collin County, Texas.']
+    }]
+  },
+  accessibility: {
+    eyebrow: 'Legal',
+    title: 'Accessibility Statement',
+    lede: 'Fabstone is committed to making our website usable for everyone, including people with disabilities.',
+    sections: [{
+      h: 'Our Commitment',
+      p: ['We strive to meet the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA and to continually improve the experience for all visitors. Accessibility is an ongoing effort, and we regularly review the site as we add new features and content.']
+    }, {
+      h: 'Measures We Take',
+      p: ['We aim for sufficient color contrast, keyboard-navigable controls, descriptive labels and alternative text for meaningful images, and a layout that adapts to different screen sizes and zoom levels.']
+    }, {
+      h: 'Known Limitations',
+      p: ['Some third-party content \u2014 such as embedded maps and video \u2014 may not be fully accessible. Where we rely on these services, we work to provide accessible alternatives or contact options.']
+    }, {
+      h: 'Need Help or Found an Issue?',
+      p: ['If you experience any difficulty using our website, or have a suggestion to improve accessibility, please reach out. We welcome your feedback and will do our best to provide the information or assistance you need.']
+    }]
+  }
+};
+function LegalPage({
+  assetBase = '../../assets',
+  kind = 'privacy'
+}) {
+  const doc = LEGAL_DOCS[kind] || LEGAL_DOCS.privacy;
+  return /*#__PURE__*/React.createElement("div", {
+    className: "fs-body",
+    "data-screen-label": doc.title
+  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
+    logo: assetBase + '/images/logo-fabstone.png',
+    homeHref: "./index.html",
+    nav: __ds_scope.SITE_NAV
+  }), /*#__PURE__*/React.createElement("main", {
+    className: "fs-main"
+  }, /*#__PURE__*/React.createElement("section", {
+    className: "fs-legal",
+    "data-screen-label": 'Legal — ' + doc.title
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-legal__inner"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, doc.eyebrow), /*#__PURE__*/React.createElement("h1", {
+    className: "fs-legal__title"
+  }, doc.title), /*#__PURE__*/React.createElement("p", {
+    className: "fs-legal__updated"
+  }, "Last updated ", UPDATED), /*#__PURE__*/React.createElement("p", {
+    className: "fs-legal__lede"
+  }, doc.lede), doc.sections.map(s => /*#__PURE__*/React.createElement("section", {
+    className: "fs-legal__section",
+    key: s.h
+  }, /*#__PURE__*/React.createElement("h2", null, s.h), s.p.map((para, j) => /*#__PURE__*/React.createElement("p", {
+    key: j
+  }, para)))), /*#__PURE__*/React.createElement("div", {
+    className: "fs-legal__contact"
+  }, /*#__PURE__*/React.createElement("h2", null, "Contact Us"), /*#__PURE__*/React.createElement("p", null, "Fabstone \xB7 2514 Sam Rayburn Hwy, Melissa, TX 75454", /*#__PURE__*/React.createElement("br", null), "sales@fabsg.com \xB7 972-542-9678"))))), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
+    logo: assetBase + '/images/logo-fabstone.png'
+  }));
+}
+Object.assign(__ds_scope, { LegalPage });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/LegalPage.jsx", error: String((e && e.message) || e) }); }
+
+// ui_kits/website/ProductPage.jsx
+try { (() => {
+// Fabstone website UI kit — Product detail page.
+// Reached from the Live Inventory grid (?item=<id>). Adapts spec rows and
+// related items to the product's department. Content modeled on the
+// StoneProfits item page (photo, specs, yard location, related items).
+
+function PdpRelCard({
+  product,
+  assetBase
+}) {
+  return /*#__PURE__*/React.createElement("a", {
+    className: "fs-inv-card",
+    href: './product.html?item=' + product.id
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv-card__media"
+  }, /*#__PURE__*/React.createElement(__ds_scope.CardBadges, {
+    product: product
+  }), /*#__PURE__*/React.createElement(__ds_scope.InvMedia, {
+    product: product,
+    assetBase: assetBase
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "fs-inv-card__body"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "fs-inv-card__tag"
+  }, product.tag), /*#__PURE__*/React.createElement("h3", {
+    className: "fs-inv-card__title"
+  }, product.name), /*#__PURE__*/React.createElement("span", {
+    className: "fs-inv-card__meta"
+  }, product.meta)));
+}
+function ProductPage({
+  assetBase = '../../assets',
+  itemId
+}) {
+  const product = __ds_scope.InventoryProducts.find(p => p.id === itemId) || __ds_scope.InventoryProducts[0];
+  const related = __ds_scope.InventoryProducts.filter(p => p.id !== product.id && p.department === product.department).slice(0, 3);
+  const specs = (__ds_scope.DepartmentSpecs[product.department] || []).filter(([, key]) => product[key]);
+  // Mobile: similar slabs become a swipeable scroller (mouse drag + nav buttons).
+  const relRef = React.useRef(null);
+  const relDrag = React.useRef({
+    down: false,
+    startX: 0,
+    startLeft: 0,
+    moved: false
+  });
+  const onRelDown = e => {
+    const el = relRef.current;
+    if (!el) return;
+    relDrag.current = {
+      down: true,
+      startX: e.clientX,
+      startLeft: el.scrollLeft,
+      moved: false
+    };
+    el.setPointerCapture && el.setPointerCapture(e.pointerId);
+  };
+  const onRelMove = e => {
+    const el = relRef.current;
+    if (!el || !relDrag.current.down) return;
+    const dx = e.clientX - relDrag.current.startX;
+    if (Math.abs(dx) > 3) relDrag.current.moved = true;
+    el.scrollLeft = relDrag.current.startLeft - dx;
+  };
+  const onRelUp = () => {
+    relDrag.current.down = false;
+  };
+  const onRelClickCapture = e => {
+    if (relDrag.current.moved) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  };
+  const relPage = dir => {
+    const el = relRef.current;
+    if (!el) return;
+    el.scrollBy({
+      left: dir * el.clientWidth * 0.85,
+      behavior: 'smooth'
+    });
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    className: "fs-body",
+    "data-screen-label": 'Product — ' + product.name
+  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
+    logo: assetBase + '/images/logo-fabstone.png',
+    homeHref: "./index.html",
+    activeItem: "Live Inventory",
+    nav: __ds_scope.SITE_NAV
+  }), /*#__PURE__*/React.createElement("main", {
+    className: "fs-main"
+  }, /*#__PURE__*/React.createElement("section", {
+    className: "fs-pdp",
+    "data-screen-label": "Product detail"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp__inner"
+  }, /*#__PURE__*/React.createElement("nav", {
+    className: "fs-pdp__crumbs",
+    "aria-label": "Breadcrumb"
+  }, /*#__PURE__*/React.createElement("a", {
+    href: "./index.html"
+  }, "Home"), /*#__PURE__*/React.createElement("span", {
+    className: "sep"
+  }, "/"), /*#__PURE__*/React.createElement("a", {
+    href: "./live-inventory.html"
+  }, "Live Inventory"), /*#__PURE__*/React.createElement("span", {
+    className: "sep"
+  }, "/"), /*#__PURE__*/React.createElement("span", {
+    className: "here"
+  }, product.name)), /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp__grid"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp__media"
+  }, /*#__PURE__*/React.createElement(__ds_scope.CardBadges, {
+    product: product
+  }), /*#__PURE__*/React.createElement(__ds_scope.InvMedia, {
+    product: product,
+    assetBase: assetBase,
+    cls: "fs-ph--lg"
+  })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("span", {
+    className: "fs-pdp__tag"
+  }, product.tag), /*#__PURE__*/React.createElement("h1", {
+    className: "fs-pdp__title"
+  }, product.name), /*#__PURE__*/React.createElement("p", {
+    className: "fs-pdp__sub"
+  }, product.meta), /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp__avail"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "dot",
+    "aria-hidden": "true"
+  }), "In stock at our Melissa, TX showroom & slab yard"), /*#__PURE__*/React.createElement("dl", {
+    className: "fs-pdp__specs"
+  }, specs.map(([label, key]) => /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp__spec",
+    key: label
+  }, /*#__PURE__*/React.createElement("dt", null, label), /*#__PURE__*/React.createElement("dd", null, product[key])))), /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp__actions"
+  }, /*#__PURE__*/React.createElement(__ds_scope.Button, {
+    variant: "outline-dark",
+    href: "./live-inventory.html"
+  }, "Back to Inventory"), /*#__PURE__*/React.createElement(__ds_scope.Button, {
+    variant: "primary",
+    href: 'mailto:sales@fabsg.com?subject=' + encodeURIComponent('Quote request: ' + product.name)
+  }, "Request a Quote")))))), /*#__PURE__*/React.createElement("section", {
+    className: "fs-pdp-loc",
+    "data-screen-label": "Availability and location"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp-loc__inner"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp-loc__card"
+  }, /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", {
+    className: "fs-accent"
+  }, "See It"), " in Person"), /*#__PURE__*/React.createElement("p", null, "Photos tell half the story \u2014 visit the showroom to see the full piece, veining and finish in natural light."), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("strong", null, "Fabstone Slab Yard"), /*#__PURE__*/React.createElement("br", null), "2514 Sam Rayburn Hwy", /*#__PURE__*/React.createElement("br", null), "Melissa, TX 75454"), /*#__PURE__*/React.createElement("p", null, "sales@fabsg.com \xB7 972-542-9678"), /*#__PURE__*/React.createElement(__ds_scope.Button, {
+    variant: "primary",
+    href: "mailto:sales@fabsg.com?subject=Schedule%20a%20Visit"
+  }, "Schedule a Visit")), /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp-loc__map"
+  }, /*#__PURE__*/React.createElement("iframe", {
+    src: "https://maps.google.com/maps?q=2514+Sam+Rayburn+Hwy,+Melissa,+TX+75454&z=16&output=embed",
+    title: "Fabstone \u2014 2514 Sam Rayburn Hwy, Melissa, TX 75454",
+    loading: "lazy"
+  })))), related.length ? /*#__PURE__*/React.createElement("section", {
+    className: "fs-pdp-rel",
+    "data-screen-label": "Related products"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp-rel__inner"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp-rel__head"
+  }, /*#__PURE__*/React.createElement("h2", null, /*#__PURE__*/React.createElement("em", {
+    className: "fs-accent"
+  }, "Similar"), " ", product.department === 'Slabs & Countertops' ? 'Slabs' : 'Products'), /*#__PURE__*/React.createElement("a", {
+    className: "fs-pdp-rel__all",
+    href: "./live-inventory.html"
+  }, "View All Inventory")), /*#__PURE__*/React.createElement("div", {
+    className: "fs-pdp-rel__grid",
+    ref: relRef,
+    onPointerDown: onRelDown,
+    onPointerMove: onRelMove,
+    onPointerUp: onRelUp,
+    onPointerCancel: onRelUp,
+    onClickCapture: onRelClickCapture
+  }, related.map(p => /*#__PURE__*/React.createElement(PdpRelCard, {
+    key: p.id,
+    product: p,
+    assetBase: assetBase
+  }))), related.length > 1 ? /*#__PURE__*/React.createElement("div", {
+    className: "fs-arrows fs-pdp-rel__arrows"
+  }, /*#__PURE__*/React.createElement(__ds_scope.ArrowButton, {
+    direction: "prev",
+    onClick: () => relPage(-1)
+  }), /*#__PURE__*/React.createElement(__ds_scope.ArrowButton, {
+    direction: "next",
+    onClick: () => relPage(1)
+  })) : null)) : null), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
+    logo: assetBase + '/images/logo-fabstone.png'
+  }));
+}
+Object.assign(__ds_scope, { ProductPage });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/ProductPage.jsx", error: String((e && e.message) || e) }); }
+
+// ui_kits/website/RepsPage.jsx
+try { (() => {
+// Fabstone website UI kit — Sales Reps page (reps.html).
+// Dedicated full roster, linked from the About page's "View All Reps" button
+// and the About Us dropdown. Reuses the shared RepsDirectory + site chrome.
+
+function RepsPage({
+  assetBase = '../../assets'
+}) {
+  const go = href => {
+    window.location.href = href;
+  };
+  const contact = () => {
+    window.location.href = 'mailto:sales@fabsg.com';
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    className: "fs-body",
+    "data-screen-label": "Sales Reps"
+  }, /*#__PURE__*/React.createElement(__ds_scope.SiteHeader, {
+    logo: assetBase + '/images/logo-fabstone.png',
+    homeHref: "./index.html",
+    activeItem: "About Us",
+    onCta: contact,
+    nav: __ds_scope.SITE_NAV
+  }), /*#__PURE__*/React.createElement("main", {
+    className: "fs-main"
+  }, /*#__PURE__*/React.createElement("section", {
+    className: "fs-about-hero",
+    "data-screen-label": "Reps \u2014 Hero"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "fs-about-hero__inner"
+  }, /*#__PURE__*/React.createElement("nav", {
+    className: "fs-breadcrumb",
+    "aria-label": "Breadcrumb"
+  }, /*#__PURE__*/React.createElement("a", {
+    href: "./index.html"
+  }, "Home"), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true"
+  }, "/"), /*#__PURE__*/React.createElement("a", {
+    href: "./about.html"
+  }, "About Us"), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true"
+  }, "/"), /*#__PURE__*/React.createElement("span", {
+    "aria-current": "page"
+  }, "Sales Reps")), /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, "Sales Team"), /*#__PURE__*/React.createElement("h1", null, "Find Your ", /*#__PURE__*/React.createElement("em", null, "Rep")), /*#__PURE__*/React.createElement("p", null, "Fabstone serves 15 states across the south-central U.S. Find the representative for your region and reach them directly."))), /*#__PURE__*/React.createElement("section", {
+    className: "fs-about-reps",
+    "data-screen-label": "Reps \u2014 Directory"
+  }, /*#__PURE__*/React.createElement(__ds_scope.RepsDirectory, null)), /*#__PURE__*/React.createElement(__ds_scope.CtaBanner, {
+    eyebrow: "Not Sure Who to Ask?",
+    title: "Talk to the Fabstone Team",
+    lede: "Reach our Melissa, TX headquarters and we'll connect you with the right rep for your project.",
+    primaryLabel: "Contact Us",
+    secondaryLabel: "Live Inventory",
+    onPrimary: contact,
+    onSecondary: () => go('./live-inventory.html')
+  })), /*#__PURE__*/React.createElement(__ds_scope.SiteFooter, {
+    logo: assetBase + '/images/logo-fabstone.png'
+  }));
+}
+Object.assign(__ds_scope, { RepsPage });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "ui_kits/website/RepsPage.jsx", error: String((e && e.message) || e) }); }
 
 __ds_ns.ExclusiveCard = __ds_scope.ExclusiveCard;
 

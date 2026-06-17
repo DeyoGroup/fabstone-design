@@ -5,8 +5,8 @@ export function CtaBanner({
   lede = 'Connect with our design team or explore the full collection.',
   primaryLabel = 'Contact Us',
   secondaryLabel = 'Live Inventory',
-  onPrimary,
-  onSecondary,
+  onPrimary = () => { window.location.href = 'mailto:sales@fabsg.com'; },
+  onSecondary = () => { window.location.href = './live-inventory.html'; },
 }) {
   return (
     <section className="fs-cta-banner">

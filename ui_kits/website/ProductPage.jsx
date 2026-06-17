@@ -8,6 +8,7 @@ import { Button } from '../../components/core/Button.jsx';
 import { ArrowButton } from '../../components/core/ArrowButton.jsx';
 import { InventoryProducts, DepartmentSpecs } from './InventoryData.jsx';
 import { InvMedia, CardBadges } from './InventoryPage.jsx';
+import { SITE_NAV } from './siteNav.jsx';
 
 function PdpRelCard({ product, assetBase }) {
   return (
@@ -54,13 +55,7 @@ export function ProductPage({ assetBase = '../../assets', itemId }) {
   return (
     <div className="fs-body" data-screen-label={'Product — ' + product.name}>
       <SiteHeader logo={assetBase + '/images/logo-fabstone.png'} homeHref="./index.html" activeItem="Live Inventory"
-        nav={[
-          { label: 'Live Inventory', href: './live-inventory.html' },
-          { label: 'Featured', href: './live-inventory.html?highlight=featured' },
-          { label: 'About Us', href: './index.html' },
-          { label: 'Location', href: './index.html' },
-          { label: 'Gallery', href: './index.html' },
-        ]} />
+        nav={SITE_NAV} />
       <main className="fs-main">
         <section className="fs-pdp" data-screen-label="Product detail">
           <div className="fs-pdp__inner">
@@ -88,7 +83,7 @@ export function ProductPage({ assetBase = '../../assets', itemId }) {
                 </dl>
                 <div className="fs-pdp__actions">
                   <Button variant="outline-dark" href="./live-inventory.html">Back to Inventory</Button>
-                  <Button variant="primary" href="#">Request a Quote</Button>
+                  <Button variant="primary" href={'mailto:sales@fabsg.com?subject=' + encodeURIComponent('Quote request: ' + product.name)}>Request a Quote</Button>
                 </div>
               </div>
             </div>
@@ -101,7 +96,7 @@ export function ProductPage({ assetBase = '../../assets', itemId }) {
               <p>Photos tell half the story — visit the showroom to see the full piece, veining and finish in natural light.</p>
               <p><strong>Fabstone Slab Yard</strong><br />2514 Sam Rayburn Hwy<br />Melissa, TX 75454</p>
               <p>sales@fabsg.com · 972-542-9678</p>
-              <Button variant="primary" href="#">Schedule a Visit</Button>
+              <Button variant="primary" href="mailto:sales@fabsg.com?subject=Schedule%20a%20Visit">Schedule a Visit</Button>
             </div>
             <div className="fs-pdp-loc__map">
               <iframe src="https://maps.google.com/maps?q=2514+Sam+Rayburn+Hwy,+Melissa,+TX+75454&z=16&output=embed"

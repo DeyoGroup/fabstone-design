@@ -212,7 +212,7 @@ export function WhyFabstone({ assetBase, onPrimary, onSecondary }) {
 /* ── Location — map + phone mockup on dark ── */
 export function LocationSection({ assetBase, onCta }) {
   return (
-    <section className="fs2-location" data-screen-label="Location">
+    <section className="fs2-location" id="location" data-screen-label="Location">
       <div className="fs2-location__inner">
         <div className="fs2-location__head">
           <h2><em className="fs-accent">Our</em> Location</h2>
@@ -333,7 +333,7 @@ export function GallerySection({ assetBase }) {
   const half = Math.ceil(photos.length / 2);
   const rows = [photos.slice(0, half), photos.slice(half)];
   return (
-    <section className="fs-gallery fs-gallery--scroll" data-screen-label="Gallery">
+    <section className="fs-gallery fs-gallery--scroll" id="gallery" data-screen-label="Gallery">
       <div className="fs-gallery__head">
         <div className="eyebrow">Highlights</div>
         <h2><em className="fs-accent">Our</em> Gallery</h2>
