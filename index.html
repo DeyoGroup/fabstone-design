@@ -3,106 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fabstone Design System</title>
+<title>Fabstone — Premium Natural Stone &amp; Surfaces</title>
 <link rel="stylesheet" href="styles.css">
-<style>
-  :root { --gap: 24px; }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: var(--fs-font-display, "Urbanist", system-ui, sans-serif);
-    color: var(--fs-text, #121212);
-    background: var(--fs-light, #F5F6F7);
-    -webkit-font-smoothing: antialiased;
-  }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 80px 32px 96px; }
-  header.hero { margin-bottom: 64px; }
-  .eyebrow {
-    font-size: 13px; font-weight: 600; letter-spacing: .14em;
-    text-transform: uppercase; color: var(--fs-red, #991B27); margin: 0 0 16px;
-  }
-  h1 { font-size: clamp(40px, 6vw, 68px); line-height: 1.04; font-weight: 700; margin: 0 0 20px; letter-spacing: -0.02em; }
-  .lede { font-size: 19px; line-height: 1.55; color: var(--fs-text-soft, #535367); max-width: 60ch; margin: 0; }
-  h2 {
-    font-size: 14px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
-    color: var(--fs-muted, #7E7E7E); margin: 64px 0 20px; padding-bottom: 14px;
-    border-bottom: 1px solid var(--fs-border, #D2D2D2);
-  }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--gap); }
-  a.card {
-    display: flex; flex-direction: column; gap: 6px;
-    background: #fff; border: 1px solid var(--fs-border, #D2D2D2); border-radius: 10px;
-    padding: 22px 24px; text-decoration: none; color: inherit;
-    transition: box-shadow .18s ease, transform .18s ease, border-color .18s ease;
-  }
-  a.card:hover { box-shadow: 0 8px 24px rgba(0,0,0,.08); transform: translateY(-2px); border-color: #bfbfbf; }
-  a.card .name { font-size: 18px; font-weight: 600; }
-  a.card .desc { font-size: 14px; color: var(--fs-text-soft, #535367); line-height: 1.45; }
-  .links { display: flex; flex-wrap: wrap; gap: 10px; }
-  .links a {
-    font-size: 14px; font-weight: 500; text-decoration: none;
-    color: var(--fs-text, #121212); background: #fff;
-    border: 1px solid var(--fs-border, #D2D2D2); border-radius: 999px;
-    padding: 9px 16px; transition: border-color .15s ease, color .15s ease;
-  }
-  .links a:hover { border-color: var(--fs-red, #991B27); color: var(--fs-red, #991B27); }
-  footer { margin-top: 80px; padding-top: 24px; border-top: 1px solid var(--fs-border, #D2D2D2); font-size: 13px; color: var(--fs-muted, #7E7E7E); }
-</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="_ds_bundle.js"></script>
+<style>body { margin: 0; }</style>
 </head>
 <body>
-  <div class="wrap">
-    <header class="hero">
-      <p class="eyebrow">Design System</p>
-      <h1>Fabstone</h1>
-      <p class="lede">Premium natural stone &amp; surfaces. Brand tokens, components, and a full website UI kit — recreated as a living design system. This page is a reference preview for design purposes only.</p>
-    </header>
-
-    <h2>Website UI Kit</h2>
-    <div class="grid">
-      <a class="card" href="ui_kits/website/index.html"><span class="name">Home Page</span><span class="desc">Full interactive homepage recreation</span></a>
-      <a class="card" href="ui_kits/website/about.html"><span class="name">About</span><span class="desc">Company story &amp; team</span></a>
-      <a class="card" href="ui_kits/website/live-inventory.html"><span class="name">Live Inventory</span><span class="desc">Browse &amp; filter slabs</span></a>
-      <a class="card" href="ui_kits/website/product.html"><span class="name">Product</span><span class="desc">Single stone detail page</span></a>
-      <a class="card" href="ui_kits/website/reps.html"><span class="name">Sales Reps</span><span class="desc">Regional rep directory</span></a>
-      <a class="card" href="ui_kits/website/review.html"><span class="name">All Pages</span><span class="desc">Side-by-side review board</span></a>
-    </div>
-
-    <h2>Template</h2>
-    <div class="grid">
-      <a class="card" href="templates/website-home/index.html"><span class="name">Website Home Template</span><span class="desc">Reusable starting point</span></a>
-      <a class="card" href="templates/website-home/mobile-audit.html"><span class="name">Mobile Audit</span><span class="desc">Responsive breakdown</span></a>
-    </div>
-
-    <h2>Brand Guidelines</h2>
-    <div class="links">
-      <a href="guidelines/brand-logo.html">Logo</a>
-      <a href="guidelines/brand-icons.html">Icons</a>
-      <a href="guidelines/brand-imagery.html">Imagery</a>
-      <a href="guidelines/brand-partners.html">Partners</a>
-      <a href="guidelines/colors-brand-red.html">Brand Red</a>
-      <a href="guidelines/colors-surfaces.html">Surfaces</a>
-      <a href="guidelines/colors-text.html">Text Colors</a>
-      <a href="guidelines/colors-glass.html">Glass</a>
-      <a href="guidelines/type-display.html">Display Type</a>
-      <a href="guidelines/type-headings.html">Headings</a>
-      <a href="guidelines/type-body.html">Body Type</a>
-      <a href="guidelines/type-weights.html">Weights</a>
-      <a href="guidelines/spacing-scale.html">Spacing Scale</a>
-      <a href="guidelines/spacing-radii.html">Radii</a>
-      <a href="guidelines/spacing-shadows.html">Shadows</a>
-      <a href="guidelines/spacing-motion.html">Motion</a>
-    </div>
-
-    <h2>Legal Pages</h2>
-    <div class="links">
-      <a href="ui_kits/website/privacy.html">Privacy</a>
-      <a href="ui_kits/website/terms.html">Terms</a>
-      <a href="ui_kits/website/accessibility.html">Accessibility</a>
-    </div>
-
-    <footer>
-      &copy; 2026 Deyo Group. All rights reserved. Proprietary — design reference only.
-    </footer>
-  </div>
+<div id="root"></div>
+<script type="text/babel">
+const { HomePage } = window.FabstoneDesignSystem_e3db74;
+ReactDOM.createRoot(document.getElementById('root')).render(<HomePage assetBase="assets" />);
+</script>
 </body>
 </html>
